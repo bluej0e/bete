@@ -1,0 +1,506 @@
+@media only screen and (max-device-width:800px),
+only screen and (device-width:1024px) and (device-height:600px),
+only screen and (width:1280px) and (orientation:landscape),
+only screen and (device-width:800px),
+only screen and (max-width:767px) {
+	.flex-video {
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width:1000px) {
+	.torneogroups {
+		text-align: center;
+	}
+}
+@media only screen and (max-width:767px) {
+	body {
+		-webkit-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+		width: 100%;
+		min-width: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row {
+		width: auto;
+		min-width: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.column,
+	.columns {
+		width: auto !important;
+		float: none;
+	}
+	.column:last-child,
+	.columns:last-child {
+		float: none;
+	}
+	[class*="column"] + [class*="column"]:last-child {
+		float: none;
+	}
+	.column:before,
+	.columns:before,
+	.column:after,
+	.columns:after {
+		content: "";
+		display: table;
+	}
+	.column:after,
+	.columns:after {
+		clear: both;
+	}
+	.no-left-margin,
+	.offset-by-one,
+	.offset-by-two,
+	.offset-by-three,
+	.offset-by-four,
+	.offset-by-five,
+	.offset-by-six,
+	.offset-by-seven,
+	.offset-by-eight,
+	.offset-by-nine,
+	.offset-by-ten {
+		margin-left: 0 !important;
+	}
+	.left-auto,
+	.push-two,
+	.push-three,
+	.push-four,
+	.push-five,
+	.push-six,
+	.push-seven,
+	.push-eight,
+	.push-nine,
+	.push-ten {
+		left: auto;
+	}
+	.right-auto,
+	.pull-two,
+	.pull-three,
+	.pull-four,
+	.pull-five,
+	.pull-six,
+	.pull-seven,
+	.pull-eight,
+	.pull-nine,
+	.pull-ten {
+		right: auto;
+	}
+	.show-for-small,
+	.hide-for-medium,
+	.hide-for-large,
+	.hide-for-xlarge {
+		display: block !important;
+	}
+	.hide-for-small,
+	.show-for-medium,
+	.show-for-large,
+	.show-for-xlarge {
+		display: none !important;
+	}
+	table.hide-for-xlarge,
+	table.hide-for-large,
+	table.hide-for-medium,
+	table.show-for-small {
+		display: table !important;
+	}
+	.button {
+		display: block;
+	}
+	button.button,
+	input[type="submit"].button {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	form {
+		margin: 0 0 19.416px;
+	}
+	.row form .row {
+		margin: 0 -6px;
+	}
+	.row form .row .column,
+	.row form .row .columns {
+		padding: 0 6px;
+	}
+	.row form .row.collapse {
+		margin: 0;
+	}
+	.row form .row.collapse .column,
+	.row form .row.collapse .columns {
+		padding: 0;
+	}
+	label.right {
+		text-align: left;
+	}
+	.mobilenoshow {
+		display: none;
+	}
+
+
+	.nav-bar {
+		left: 0;
+	}
+	.nav-bar-btn {
+		display: inline-block;
+		text-align: center;
+		font-size: 1.4em;
+		line-height: 50px;
+	}
+	.nav-bar-logo img{
+		max-height: 50px;
+	}
+	.nav-bar-logo{
+		width: 20%;
+	}
+
+
+	.tournaments {
+		width: 46%;
+		/*height: 3em;*/
+		margin: 1%;
+		padding: 0.5em;
+		font-weight: 800;
+		overflow: visible;
+		font-size: 1.2em;
+		line-height: 1em;
+
+	}
+	a.clickable-row {
+		width: 100%;
+		margin:0.3em 0;
+	}
+
+
+
+
+	.partido{
+		width: 47%;
+		height: auto;
+		margin: 1.5%;
+		padding: 0.5em;
+		font-weight: 800;
+		overflow: visible;
+	}
+	.timebox {
+		font-size: 1em;
+	}
+	.tourname{    
+		font-size: 0.7em;
+	}
+	.centerbox,
+	.leftbox,
+	.rightbox {
+		height: 80%;
+	}
+	.leftbox,
+	.rightbox {
+		width: 45%;
+	}
+
+	.centerbox {
+		width: 1em;
+	}
+	.vsvs{
+		font-size: 0.9em;
+
+	}
+	.h11 {
+		font-size: 0.8em;
+		font-size: 1em;
+		line-height: 0.9em;
+		font-weight: 900;
+	}
+
+	.h11textspace{
+		font-size: 1em;
+	}
+	.gamebar {
+		width: 55%;
+		height: 1em;
+		transform: translate(0,0);
+	}
+
+
+	a.betbutton{
+		line-height: 1.6em;
+		width: 100%;
+		font-size: 1.2em;
+		text-align: center;
+		float: none;
+		transform:translate(0, 0.25em);
+
+	}
+
+	a.moinfo{
+		display: none;
+	}
+
+	.gamebutton{
+		height: 4em;
+		padding: 0.4em;
+	}
+
+	.gamebar {
+		width: 100%;
+		height: 1em;
+		/*transform: translate(0em, -1.5em);*/
+	}
+
+
+
+}
+
+@media only screen and (min-width:1441px) {
+	.hide-for-small,
+	.hide-for-medium,
+	.hide-for-large,
+	.show-for-xlarge {
+		display: block !important;
+	}
+	.show-for-small,
+	.show-for-medium,
+	.show-for-large,
+	.hide-for-xlarge {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width:1279px) and (min-width:768px) {
+	.hide-for-small,
+	.show-for-medium,
+	.hide-for-large,
+	.hide-for-xlarge {
+		display: block !important;
+	}
+	.show-for-small,
+	.hide-for-medium,
+	.show-for-large,
+	.show-for-xlarge {
+		display: none !important;
+	}
+}
+
+@media screen and (orientation:landscape) {
+	.show-for-landscape,
+	.hide-for-portrait {
+		display: block !important;
+	}
+	.hide-for-landscape,
+	.show-for-portrait {
+		display: none !important;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	.show-for-portrait,
+	.hide-for-landscape {
+		display: block !important;
+	}
+	.hide-for-portrait,
+	.show-for-landscape {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width:1279px) and (min-width:768px) {
+	.touch table.hide-for-xlarge,
+	.touch table.hide-for-large,
+	.touch table.hide-for-small,
+	.touch table.show-for-medium {
+		display: table !important;
+	}
+}
+
+@media (min-width:1px) and (max-width:533px) {
+
+	.player {
+		width: 100%;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	#players td {
+		padding: 5px;
+		height: 145px;
+		width: 110px;
+		padding-bottom: -2px;
+	}
+	table#players {
+		width: 110px;
+		float: left;
+		border: solid #151515 1px;
+	}
+	#players img[class="attachment-post-thumbnail wp-post-image"] {
+		margin-bottom: 2px;
+		width: 110px;
+	}
+	#players .textbox {
+		display: inline-block;
+		width: 80px;
+		line-height: 12px;
+		font-size: 12px;
+	}
+	.team {
+		width: 100%;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	.teams td {
+		padding: 4px;
+		height: 150px;
+	}
+	.teams {
+		width: 25%;
+		float: left;
+		border: solid #151515 1px;
+	}
+	.teams img {
+		margin-bottom: 2px;
+	}
+	.teams .textbox {
+		display: inline-block;
+		line-height: 14px;
+		font-size: 12px;
+	}
+
+
+
+	.tournaments {
+		width: 100%;
+		/*height: 2.5em;*/
+		margin: 0.5%;
+		padding: 0.5em;
+		font-size: 1em;
+		line-height: 1em;
+	}
+
+
+
+	.is-default {
+		display: none;
+	}
+	.is-mobile {
+		display: inherit;
+	}
+
+
+
+/*
+	.partido{
+		width: 47%;
+		height: auto;
+		margin: 1.5%;
+		padding: 0.5em;
+		font-weight: 800;
+		overflow: visible;
+	}
+	.timebox {
+		display: inline-block;
+		right: 0;
+		float: right;
+		font-size: 1em;
+
+	}
+	.tourname{    
+		width: 100%;
+		line-height: 1.4em;
+		font-weight:900 ;
+		font-size: 0.7em;
+	}
+	.partido img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.centerbox,
+	.leftbox,
+	.rightbox {
+		display: inline-block;
+		height: 80%;
+		vertical-align: top;
+		text-align: center;
+		margin: 10px 0px 5px 0px;
+	}
+	.leftbox,
+	.rightbox {
+		width: 45%;
+		overflow: hidden;
+
+	}
+
+	.centerbox {
+		width: 1em;
+	}
+	.vsvs{
+		line-height: 5em;
+		height: 8em;
+		font-size: 0.9em;
+
+	}
+	.h11 {
+		font-size: 0.8em;
+		font-size: 1em;
+		line-height: 0.9em;
+		font-weight: 900;
+	}
+
+	.h7 {
+		line-height: 1.1em;
+	}
+	.h11textspace{
+		line-height: 3em;
+		font-size: 1em;
+	}
+	.gamebar {
+		width: 55%;
+		height: 1em;
+		transform: translate(0,0);
+	}
+
+
+	a.betbutton{
+		line-height: 1.6em;
+		width: 100%;
+		font-size: 1.2em;
+		text-align: center;
+		float: none;
+		transform:translate(0, 0.25em);
+
+	}
+
+	a.moinfo{
+		display: none;
+	}
+
+	.gamebutton{
+		height: 4em;
+		padding: 0.4em;
+	}
+
+	.gamebar {
+		width: 100%;
+		height: 1em;
+		/*transform: translate(0em, -1.5em);*/
+	}
+*/
+
+
+
+}
+
+@media only screen and (max-width:499px){
+	.nav-bar-btn {
+		padding: 4px;
+	}
+	.nav-bar-search{
+		width: 20%;
+	}
+	.nav-bar-btn {
+		width: 20%;
+		font-size: 7vw;
+	}
+}

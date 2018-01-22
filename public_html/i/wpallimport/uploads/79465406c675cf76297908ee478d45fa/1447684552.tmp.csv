@@ -1,0 +1,132 @@
+<!DOCTYPE html><html><head><title>Dota 2 match API</title><meta name="viewport" content="target-densitydpi=device-dpi,user-scalable=1,minimum-scale=1,maximum-scale=2.5,initial-scale=1,width=device-width">
+<link href='/static/spreadsheets2/client/css/966629421-waffle_k_ltr.css' type='text/css' rel='stylesheet'><style type="text/css">
+        html { overflow: visible; }
+        #sheets-viewport { overflow: auto; }
+        #sheets-viewport.widget-viewport { overflow: hidden; }
+        .grid-container { overflow: visible; background: white;}
+        .grid-table-container { overflow: visible; }
+        #top-bar {
+          background: url("//ssl.gstatic.com/docs/spreadsheets/publishheader.png") repeat-x bottom;
+          margin: 0;
+          overflow: hidden;
+        }
+        #top-bar {
+          border-bottom: 1px solid #ccc;
+          padding: 6px 6px 0;
+        }
+        #doc-title { padding-bottom: 5px; }
+        #doc-title .name { font-size: 15px; }
+        #sheet-menu {
+          font-size: 13px;
+          margin: 6px 0 0;
+          padding: 0 0 5px;
+        }
+        #sheet-menu li {
+          display: inline;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 8px;
+        }
+        #sheet-menu li.active {
+          background-color: #fff;
+          font-weight: bold;
+          border: 1px solid #999;
+        }
+        #top-bar #sheet-menu li.active {
+          border-bottom: 0;
+        }
+        #sheet-menu a, #sheet-menu a:visited { color: #07c; }
+        #footer {
+          background: #f0f0f0;
+          border-top: 1px #ccc solid;
+          border-bottom: 1px #ccc solid;
+          font-size: 13;
+          padding: 10px 10px;
+        }
+        .dash {
+          padding: 0 6px;
+        }
+        .ritz .waffle a { color: inherit; }.ritz .waffle .s1{border-right: none;text-align:left;text-decoration:underline;color:#1155cc;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-right: none;text-align:left;color:#000000;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{text-align:left;color:#000000;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{text-align:left;text-decoration:underline;color:#1155cc;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-left: none;border-right: none;text-align:left;color:#000000;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style><script type="text/javascript">
+        var activeSheetId;
+
+        function switchToSheet(id) {
+          if (document.getElementById('sheet-menu')) {
+            document.getElementById('sheet-button-' + activeSheetId)
+                .className = '';
+            document.getElementById('sheet-button-' + id).className = 'active';
+          }
+
+          document.getElementById(activeSheetId).style.display = 'none';
+          document.getElementById(id).style.display = '';
+          activeSheetId = id;
+
+          // posObjs() is defined in embeddedObjectJs (see EmbeddedObjectHtmlBuilder.java)
+          posObjs();
+          return false;
+        }
+        
+        function init() {
+        var optPageSwitcher;
+        
+        function resize() {
+          var optMobileWebHeader = document.getElementById('docs-ml-header-id');
+          var optTopBar = document.getElementById('top-bar');
+          var optFooter = document.getElementById('footer');
+          var sheetsViewport = document.getElementById('sheets-viewport');
+
+          if (optMobileWebHeader) {
+            sheetsViewport.style.marginTop = optMobileWebHeader.offsetHeight +
+                (optTopBar ? optTopBar.offsetHeight : 0) + 'px';
+          }
+          var adjustedHeight = window.innerHeight -
+              (optTopBar ? optTopBar.offsetHeight : 0) -
+              (optFooter ? optFooter.offsetHeight : 0);
+          var adjustedWidth = window.innerWidth;
+          sheetsViewport.style.width = (adjustedWidth + 'px');
+          sheetsViewport.style.height = (adjustedHeight + 'px');
+          if (optPageSwitcher) {
+            optPageSwitcher.resize(adjustedWidth, adjustedHeight);
+          }
+        }
+        resize();
+        window.onresize = resize;
+        }
+        </script><script>_docs_flag_initialData={"docs-mwid":true,"docs-smheo":true,"info_params":{},"ilcm":{"eui":"ADFN-cvbo94vLdFTVEP9l-7PMigfqrV-EoB7G_Su1SIjWwZhELcIrc4mFg_CAKMJ6mAKcb9uQRZs","je":1,"sstu":1447684552041000,"si":"CKjE4puVlckCFUb2DQodFUwK3Q"},"drive_url":"//drive.google.com?usp\u003dsheets_web","docs-sup":"/spreadsheets"};</script></head><body onload=init()><div id="top-bar"><div id="doc-title"><span class="name">Dota 2 match API : Sheet1</span></div></div><div id="sheets-viewport"><div id="0" style="display:none;position:relative;" dir="ltr"><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr header-shim row-header-shim"></th><th id="0C0" style="width:207px" class="header-shim"></th><th id="0C1" style="width:131px" class="header-shim"></th><th id="0C2" style="width:150px" class="header-shim"></th><th id="0C3" style="width:154px" class="header-shim"></th><th id="0C4" style="width:115px" class="header-shim"></th><th id="0C5" style="width:208px" class="header-shim"></th><th id="0C6" style="width:150px" class="header-shim"></th><th id="0C7" style="width:183px" class="header-shim"></th><th id="0C8" style="width:174px" class="header-shim"></th><th id="0C9" style="width:137px" class="header-shim"></th><th id="0C10" style="width:162px" class="header-shim"></th><th id="0C11" style="width:96px" class="header-shim"></th><th id="0C12" style="width:140px" class="header-shim"></th><th id="0C13" style="width:128px" class="header-shim"></th><th id="0C14" style="width:213px" class="header-shim"></th><th id="0C15" style="width:183px" class="header-shim"></th><th id="0C16" style="width:150px" class="header-shim"></th><th id="0C17" style="width:137px" class="header-shim"></th><th id="0C18" style="width:174px" class="header-shim"></th><th id="0C19" style="width:162px" class="header-shim"></th><th id="0C20" style="width:127px" class="header-shim"></th><th id="0C21" style="width:167px" class="header-shim"></th><th id="0C22" style="width:140px" class="header-shim"></th><th id="0C23" style="width:141px" class="header-shim"></th><th id="0C24" style="width:117px" class="header-shim"></th><th id="0C25" style="width:233px" class="header-shim"></th><th id="0C26" style="width:164px" class="header-shim"></th><th id="0C27" style="width:149px" class="header-shim"></th><th id="0C28" style="width:132px" class="header-shim"></th><th id="0C29" style="width:78px" class="header-shim"></th></tr></thead><tbody><tr style='height:21px;'><th id="0R0" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">1</div></th><td class="s0">Matches Team1 Logo Url</td><td class="s0 softmerge" dir="ltr"><div class="softmerge-inner" style="width: 128px; left: -1px;">Matches Team1 Team Id</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 147px; left: -1px;">Matches Team1 Team Tag</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 151px; left: -1px;">Matches Team1 Team Name</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 112px; left: -1px;">Matches Team1 Score</div></td><td class="s0">Matches Team1 Country Code</td><td class="s0">Matches Starttime</td><td class="s0">Matches Comment</td><td class="s0">Matches Starttime Unix</td><td class="s0">Matches Status</td><td class="s0">Matches Timediff</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 93px; left: -1px;">Matches Team2 Country Code</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 137px; left: -1px;">Matches Team2 Score</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 125px; left: -1px;">Matches Team2 Team Name</div></td><td class="s0">Matches Team2 Team Tag</td><td class="s0">Matches Team2 Logo Url</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 147px; left: -1px;">Matches Team2 Team Id</div></td><td class="s0">Matches League Id</td><td class="s0">Matches League League Id</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">Matches League Image Url</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 124px; left: -1px;">Matches League Active</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 164px; left: -1px;">Matches League Has Ticket</div></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 137px; left: -1px;">Matches League Itemdef</div></td><td class="s0">Matches League Slug</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Matches League Name</div></td><td class="s0">Matches Series Type</td><td class="s0">Matches Viewers Self</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 146px; left: -1px;">Matches Viewers Stream</div></td><td class="s0">Matches Link</td><td class="s0">Timestamp</td></tr><tr style='height:21px;'><th id="0R1" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">2</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/teamempire.png</div></td><td class="s0">46</td><td class="s0">Empire</td><td class="s0">Team Empire</td><td class="s0">0</td><td class="s0">ru</td><td class="s0">2015-11-16 14:04:00</td><td class="s0"></td><td class="s0">1447679040</td><td class="s0">0</td><td class="s0">-5486</td><td class="s0">ru</td><td class="s0">0</td><td class="s0">Team Empire</td><td class="s0">Empire</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/teamempire.png</div></td><td class="s0">46</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">1</td><td class="s0">0</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/pnknhol&amp;sa=D&amp;ust=1447688152046000&amp;usg=AFQjCNHzFaXlSanBD79J6bj3en-4xf4OxA">http://dailydota2.com/match/pnknhol</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R2" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">3</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/teamempire.png</div></td><td class="s0">46</td><td class="s0">Empire</td><td class="s0">Team Empire</td><td class="s0">0</td><td class="s0">ru</td><td class="s0">2015-11-16 14:09:00</td><td class="s0"></td><td class="s0">1447679340</td><td class="s0">0</td><td class="s0">-5186</td><td class="s0">ru</td><td class="s0">0</td><td class="s0">Team Empire</td><td class="s0">Empire</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/teamempire.png</div></td><td class="s0">46</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">1</td><td class="s0">0</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/txkaikz&amp;sa=D&amp;ust=1447688152046000&amp;usg=AFQjCNHQdehErlMIjh6PKOg1P6DIDPKtlQ">http://dailydota2.com/match/txkaikz</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R3" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">4</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/vicigaming.png</div></td><td class="s0">726228</td><td class="s0">VG</td><td class="s0">Vici Gaming</td><td class="s0">0</td><td class="s0">cn</td><td class="s0">2015-11-16 14:30:00</td><td class="s0"></td><td class="s0">1447680600</td><td class="s0">0</td><td class="s0">-3926</td><td class="s0">ru</td><td class="s0">0</td><td class="s3"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://Virtus.pro&amp;sa=D&amp;ust=1447688152047000&amp;usg=AFQjCNEjI4Z0QV8mUaymDN9opo2Avo6cow">Virtus.pro</a></td><td class="s0">VP</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/virtuspropolar.png</div></td><td class="s0">1883502</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">3</td><td class="s0">1</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/ta8nq9c&amp;sa=D&amp;ust=1447688152047000&amp;usg=AFQjCNFi8LMvpRG-LalDDd9uAoga4Rhm5g">http://dailydota2.com/match/ta8nq9c</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R4" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">5</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/cloud9.png</div></td><td class="s0">1333179</td><td class="s0">C9</td><td class="s0">Cloud9 G2A</td><td class="s0">0</td><td class="s0">us</td><td class="s0">2015-11-16 17:30:00</td><td class="s0"></td><td class="s0">1447691400</td><td class="s0">0</td><td class="s0">6874</td><td class="s0">se</td><td class="s0">0</td><td class="s0">Alliance</td><td class="s0">Alliance</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/alliance.png</div></td><td class="s0">111474</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/xgyjgjr&amp;sa=D&amp;ust=1447688152047000&amp;usg=AFQjCNF0hAd59qPOuyOOMJPvg8x7hN8tpQ">http://dailydota2.com/match/xgyjgjr</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R5" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">6</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/omega24.png</div></td><td class="s0">1615919</td><td class="s0">OG</td><td class="s0">Omega 24</td><td class="s0">0</td><td class="s0">us</td><td class="s0">2015-11-16 18:45:00</td><td class="s0"></td><td class="s0">1447695900</td><td class="s0">0</td><td class="s0">11374</td><td class="s0">se</td><td class="s0">0</td><td class="s0">Fnatic</td><td class="s0">Fnatic</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/fnatic.png</div></td><td class="s0">350190</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">1</td><td class="s0">0</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/kgmygm0&amp;sa=D&amp;ust=1447688152048000&amp;usg=AFQjCNHAWmzLruTd4A1srPPxW6ntFX8Qtg">http://dailydota2.com/match/kgmygm0</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R6" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">7</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/omega24.png</div></td><td class="s0">2256576</td><td class="s0">YES</td><td class="s0">Yes! Ember Spirit</td><td class="s0">0</td><td class="s0">ru</td><td class="s0">2015-11-16 20:00:00</td><td class="s0"></td><td class="s0">1447700400</td><td class="s0">0</td><td class="s0">15874</td><td class="s0">cn</td><td class="s0">0</td><td class="s0">Tyrant Rex</td><td class="s0">TR</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/fnatic.png</div></td><td class="s0">1703200</td><td class="s0">245</td><td class="s0">2584</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/uprise-champions-cup-season-2.png</div></td><td class="s0">0</td><td class="s0">1</td><td class="s0">16317</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Uprise Champions Cup Season 2</div></td><td class="s0">3</td><td class="s0">0</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/ixdq2vk&amp;sa=D&amp;ust=1447688152048000&amp;usg=AFQjCNHfk28B3feVOI5UJ8qWCDgOpCzBvw">http://dailydota2.com/match/ixdq2vk</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R7" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">8</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/ehome.png</div></td><td class="s0">4</td><td class="s0">EHOME</td><td class="s0">EHOME</td><td class="s0">0</td><td class="s0">cn</td><td class="s0">2015-11-16 21:30:00</td><td class="s0"></td><td class="s0">1447705800</td><td class="s0">0</td><td class="s0">21274</td><td class="s0">cn</td><td class="s0">0</td><td class="s0">Newbee.Young</td><td class="s0">Newbee.Y</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/newbeeyoung.png</div></td><td class="s0">1951061</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">1</td><td class="s0">0</td><td class="s0"></td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/u1soeiv&amp;sa=D&amp;ust=1447688152049000&amp;usg=AFQjCNH3tFdASPuFnp1nQqsinVC4aQddqg">http://dailydota2.com/match/u1soeiv</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R8" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">9</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/evilgeniuses.png</div></td><td class="s0">39</td><td class="s0">EG</td><td class="s0">Evil Geniuses</td><td class="s0">0</td><td class="s0">us</td><td class="s0">2015-11-17 11:00:00</td><td class="s0"></td><td class="s0">1447754400</td><td class="s0">0</td><td class="s0">69874</td><td class="s0">cn</td><td class="s0">0</td><td class="s0">Vega_Squadron</td><td class="s0">Vega</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/vega_squadron.png</div></td><td class="s0">1920206</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">3</td><td class="s0">10</td><td class="s0">72176</td><td class="s1 softmerge"><div class="softmerge-inner" style="width: 308px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/fafj7cb&amp;sa=D&amp;ust=1447688152049000&amp;usg=AFQjCNFbHqi-IZxZDHdEmvYTJbRAXedvJQ">http://dailydota2.com/match/fafj7cb</a></div></td><td class="s2"></td></tr><tr style='height:21px;'><th id="0R9" style="height: 21px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 21px;">10</div></th><td class="s0 softmerge"><div class="softmerge-inner" style="width: 204px; left: -1px;">/images/logos/teams/evilgeniuses.png</div></td><td class="s0">39</td><td class="s0">EG</td><td class="s0">Evil Geniuses</td><td class="s0">0</td><td class="s0">us</td><td class="s0">2015-11-17 11:00:00</td><td class="s0"></td><td class="s0">1447754400</td><td class="s0">0</td><td class="s0">69874</td><td class="s0">cn</td><td class="s0">0</td><td class="s0">Vega_Squadron</td><td class="s0">Vega</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 180px; left: -1px;">/images/logos/teams/vega_squadron.png</div></td><td class="s0">1920206</td><td class="s0">572</td><td class="s0">3671</td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 159px; left: -1px;">/images/leagues/frankfurt-major-2015.png</div></td><td class="s0">1</td><td class="s0">1</td><td class="s0">16731</td><td class="s0"></td><td class="s0 softmerge"><div class="softmerge-inner" style="width: 114px; left: -1px;">Frankfurt Major 2015</div></td><td class="s0">3</td><td class="s0">10</td><td class="s0">72176</td><td class="s3 softmerge"><div class="softmerge-inner" style="width: 129px; left: -1px;"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://dailydota2.com/match/fafj7cb&amp;sa=D&amp;ust=1447688152050000&amp;usg=AFQjCNH3KnUN_H-LbctCu20OVZ56VjVXrg">http://dailydota2.com/match/fafj7cb</a></div></td><td class="s4 softmerge"><div class="softmerge-inner" style="width: 176px; left: -1px;">1447684529</div></td></tr></tbody></table></div></div></div><div id="footer"><span>Published by <a target="_blank" title="Learn more about Google Sheets" href="https://docs.google.com/spreadsheets/?usp=sheets_web">Google Sheets</a></span><span class="dash">&ndash;</span><a href="https://docs.google.com/abuse?id=185ZlxhfTr4eR14L8U-k8OSwXljlOeQfmQRpSe3aMR2k">Report Abuse</a><span class="dash">&ndash;</span><span>Updated automatically every 5 minutes</span></div>
+<script type='text/javascript'>
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();</script>
+<script type="text/javascript">activeSheetId = '0'; switchToSheet('0');</script></body></html>

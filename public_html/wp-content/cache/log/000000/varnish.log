@@ -1,0 +1,980 @@
+[Thu, 14 Apr 2016 04:18:00 +0000] [http://www.bet-esport.com/.*] Connecting to  ...
+[Thu, 14 Apr 2016 04:18:00 +0000] [http://www.bet-esport.com/.*] PURGE /.* HTTP/1.1
+[Thu, 14 Apr 2016 04:18:00 +0000] [http://www.bet-esport.com/.*] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 04:18:00 +0000] [http://www.bet-esport.com/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1342] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1342] PURGE /?page_id=1342 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1342] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1342] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1151] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1151] PURGE /?page_id=1151 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1151] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=1151] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=995] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=995] PURGE /?page_id=995 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=995] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:32 +0000] [http://www.bet-esport.com/?page_id=995] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1709] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1709] PURGE /?page_id=1709 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1709] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1709] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1320] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1320] PURGE /?page_id=1320 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1320] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1320] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1373] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1373] PURGE /?page_id=1373 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1373] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1373] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1539] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1539] PURGE /?page_id=1539 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1539] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1539] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=959] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=959] PURGE /?page_id=959 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=959] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=959] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1375] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1375] PURGE /?page_id=1375 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1375] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1375] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1116] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1116] PURGE /?page_id=1116 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1116] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1116] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1059] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1059] PURGE /?page_id=1059 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1059] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1059] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1113] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1113] PURGE /?page_id=1113 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1113] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1113] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1047] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1047] PURGE /?page_id=1047 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1047] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1047] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1535] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1535] PURGE /?page_id=1535 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1535] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1535] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1236] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1236] PURGE /?page_id=1236 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1236] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1236] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=890] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=890] PURGE /?page_id=890 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=890] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=890] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1701] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1701] PURGE /?page_id=1701 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1701] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1701] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1573] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1573] PURGE /?page_id=1573 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1573] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1573] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1275] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1275] PURGE /?page_id=1275 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1275] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1275] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1158] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1158] PURGE /?page_id=1158 HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1158] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/?page_id=1158] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:15:33 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1075] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1075] PURGE /?page_id=1075 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1075] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1075] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1069] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1069] PURGE /?page_id=1069 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1069] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1069] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1511] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1511] PURGE /?page_id=1511 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1511] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1511] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1558] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1558] PURGE /?page_id=1558 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1558] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1558] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1171] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1171] PURGE /?page_id=1171 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1171] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1171] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1575] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1575] PURGE /?page_id=1575 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1575] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:23 +0000] [http://www.bet-esport.com/?page_id=1575] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1027] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1027] PURGE /?page_id=1027 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1027] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1027] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=778] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=778] PURGE /?page_id=778 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=778] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=778] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1137] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1137] PURGE /?page_id=1137 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1137] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1137] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1363] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1363] PURGE /?page_id=1363 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1363] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1363] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1572] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1572] PURGE /?page_id=1572 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1572] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1572] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1505] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1505] PURGE /?page_id=1505 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1505] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1505] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=999] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=999] PURGE /?page_id=999 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=999] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=999] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1159] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1159] PURGE /?page_id=1159 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1159] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1159] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1205] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1205] PURGE /?page_id=1205 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1205] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1205] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1215] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1215] PURGE /?page_id=1215 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1215] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1215] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1562] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1562] PURGE /?page_id=1562 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1562] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1562] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=974] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=974] PURGE /?page_id=974 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=974] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=974] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1131] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1131] PURGE /?page_id=1131 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1131] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1131] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1221] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1221] PURGE /?page_id=1221 HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1221] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/?page_id=1221] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:16:24 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1508] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1508] PURGE /?page_id=1508 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1508] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1508] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1490] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1490] PURGE /?page_id=1490 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1490] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1490] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1366] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1366] PURGE /?page_id=1366 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1366] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1366] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=782] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=782] PURGE /?page_id=782 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=782] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=782] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=925] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=925] PURGE /?page_id=925 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=925] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=925] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1044] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1044] PURGE /?page_id=1044 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1044] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1044] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1007] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1007] PURGE /?page_id=1007 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1007] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1007] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=977] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=977] PURGE /?page_id=977 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=977] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=977] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1675] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1675] PURGE /?page_id=1675 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1675] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1675] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=774] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=774] PURGE /?page_id=774 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=774] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=774] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1072] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1072] PURGE /?page_id=1072 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1072] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1072] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=916] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=916] PURGE /?page_id=916 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=916] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=916] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1187] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1187] PURGE /?page_id=1187 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1187] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1187] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1479] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1479] PURGE /?page_id=1479 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1479] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1479] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1203] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1203] PURGE /?page_id=1203 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1203] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1203] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=941] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=941] PURGE /?page_id=941 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=941] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=941] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1564] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1564] PURGE /?page_id=1564 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1564] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1564] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=929] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=929] PURGE /?page_id=929 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=929] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=929] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=923] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=923] PURGE /?page_id=923 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=923] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=923] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1345] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1345] PURGE /?page_id=1345 HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1345] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/?page_id=1345] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:17:30 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=971] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=971] PURGE /?page_id=971 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=971] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=971] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1531] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1531] PURGE /?page_id=1531 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1531] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1531] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1499] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1499] PURGE /?page_id=1499 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1499] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1499] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1329] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1329] PURGE /?page_id=1329 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1329] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1329] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1272] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1272] PURGE /?page_id=1272 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1272] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1272] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1514] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1514] PURGE /?page_id=1514 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1514] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1514] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1704] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1704] PURGE /?page_id=1704 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1704] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1704] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1278] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1278] PURGE /?page_id=1278 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1278] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:05 +0000] [http://www.bet-esport.com/?page_id=1278] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1681] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1681] PURGE /?page_id=1681 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1681] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1681] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1154] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1154] PURGE /?page_id=1154 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1154] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1154] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1299] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1299] PURGE /?page_id=1299 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1299] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1299] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1263] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1263] PURGE /?page_id=1263 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1263] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1263] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1180] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1180] PURGE /?page_id=1180 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1180] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1180] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=920] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=920] PURGE /?page_id=920 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=920] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=920] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1332] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1332] PURGE /?page_id=1332 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1332] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1332] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1520] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1520] PURGE /?page_id=1520 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1520] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1520] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1281] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1281] PURGE /?page_id=1281 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1281] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1281] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1476] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1476] PURGE /?page_id=1476 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1476] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1476] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1174] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1174] PURGE /?page_id=1174 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1174] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=1174] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=894] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=894] PURGE /?page_id=894 HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=894] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/?page_id=894] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:18:06 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1679] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1679] PURGE /?page_id=1679 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1679] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1679] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1173] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1173] PURGE /?page_id=1173 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1173] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1173] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=978] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=978] PURGE /?page_id=978 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=978] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=978] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1308] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1308] PURGE /?page_id=1308 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1308] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1308] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1360] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1360] PURGE /?page_id=1360 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1360] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1360] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1084] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1084] PURGE /?page_id=1084 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1084] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1084] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1302] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1302] PURGE /?page_id=1302 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1302] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1302] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1314] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1314] PURGE /?page_id=1314 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1314] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1314] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1317] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1317] PURGE /?page_id=1317 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1317] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1317] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1212] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1212] PURGE /?page_id=1212 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1212] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1212] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1698] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1698] PURGE /?page_id=1698 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1698] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:20 +0000] [http://www.bet-esport.com/?page_id=1698] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1170] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1170] PURGE /?page_id=1170 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1170] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1170] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1266] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1266] PURGE /?page_id=1266 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1266] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1266] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=979] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=979] PURGE /?page_id=979 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=979] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=979] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1287] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1287] PURGE /?page_id=1287 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1287] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1287] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=927] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=927] PURGE /?page_id=927 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=927] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=927] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1677] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1677] PURGE /?page_id=1677 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1677] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1677] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1348] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1348] PURGE /?page_id=1348 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1348] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1348] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1370] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1370] PURGE /?page_id=1370 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1370] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1370] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1293] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1293] PURGE /?page_id=1293 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1293] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/?page_id=1293] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:21 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1030] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1030] PURGE /?page_id=1030 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1030] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1030] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=997] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=997] PURGE /?page_id=997 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=997] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=997] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1087] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1087] PURGE /?page_id=1087 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1087] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1087] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1066] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1066] PURGE /?page_id=1066 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1066] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1066] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1122] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1122] PURGE /?page_id=1122 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1122] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1122] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1224] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1224] PURGE /?page_id=1224 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1224] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1224] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1386] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1386] PURGE /?page_id=1386 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1386] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1386] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=769] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=769] PURGE /?page_id=769 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=769] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=769] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1056] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1056] PURGE /?page_id=1056 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1056] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1056] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1128] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1128] PURGE /?page_id=1128 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1128] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=1128] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=955] Connecting to  ...
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=955] PURGE /?page_id=955 HTTP/1.1
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=955] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:19:59 +0000] [http://www.bet-esport.com/?page_id=955] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=939] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=939] PURGE /?page_id=939 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=939] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=939] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1560] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1560] PURGE /?page_id=1560 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1560] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1560] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1351] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1351] PURGE /?page_id=1351 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1351] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1351] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1107] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1107] PURGE /?page_id=1107 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1107] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1107] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1140] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1140] PURGE /?page_id=1140 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1140] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1140] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1156] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1156] PURGE /?page_id=1156 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1156] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1156] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=780] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=780] PURGE /?page_id=780 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=780] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=780] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1354] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1354] PURGE /?page_id=1354 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1354] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1354] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1374] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1374] PURGE /?page_id=1374 HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1374] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/?page_id=1374] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:20:00 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1233] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1233] PURGE /?page_id=1233 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1233] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1233] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=784] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=784] PURGE /?page_id=784 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=784] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=784] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1053] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1053] PURGE /?page_id=1053 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1053] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:01 +0000] [http://www.bet-esport.com/?page_id=1053] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1090] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1090] PURGE /?page_id=1090 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1090] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1090] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=996] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=996] PURGE /?page_id=996 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=996] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=996] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1290] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1290] PURGE /?page_id=1290 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1290] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1290] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=786] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=786] PURGE /?page_id=786 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=786] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=786] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=976] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=976] PURGE /?page_id=976 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=976] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=976] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1502] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1502] PURGE /?page_id=1502 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1502] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1502] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1517] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1517] PURGE /?page_id=1517 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1517] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1517] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1218] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1218] PURGE /?page_id=1218 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1218] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1218] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1239] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1239] PURGE /?page_id=1239 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1239] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1239] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=767] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=767] PURGE /?page_id=767 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=767] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=767] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1482] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1482] PURGE /?page_id=1482 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1482] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1482] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1041] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1041] PURGE /?page_id=1041 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1041] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1041] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=913] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=913] PURGE /?page_id=913 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=913] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=913] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1269] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1269] PURGE /?page_id=1269 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1269] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1269] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=765] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=765] PURGE /?page_id=765 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=765] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=765] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1336] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1336] PURGE /?page_id=1336 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1336] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=1336] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=968] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=968] PURGE /?page_id=968 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=968] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/?page_id=968] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:02 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1473] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1473] PURGE /?page_id=1473 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1473] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1473] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1202] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1202] PURGE /?page_id=1202 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1202] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1202] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1183] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1183] PURGE /?page_id=1183 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1183] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1183] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1191] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1191] PURGE /?page_id=1191 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1191] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1191] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1134] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1134] PURGE /?page_id=1134 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1134] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1134] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1311] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1311] PURGE /?page_id=1311 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1311] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1311] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1125] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1125] PURGE /?page_id=1125 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1125] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1125] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1524] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1524] PURGE /?page_id=1524 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1524] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1524] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1172] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1172] PURGE /?page_id=1172 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1172] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1172] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1296] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1296] PURGE /?page_id=1296 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1296] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1296] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1372] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1372] PURGE /?page_id=1372 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1372] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1372] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1020] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1020] PURGE /?page_id=1020 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1020] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1020] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1230] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1230] PURGE /?page_id=1230 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1230] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1230] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1688] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1688] PURGE /?page_id=1688 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1688] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1688] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=962] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=962] PURGE /?page_id=962 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=962] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=962] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1357] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1357] PURGE /?page_id=1357 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1357] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1357] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1260] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1260] PURGE /?page_id=1260 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1260] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1260] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1488] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1488] PURGE /?page_id=1488 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1488] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1488] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1284] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1284] PURGE /?page_id=1284 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1284] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:56 +0000] [http://www.bet-esport.com/?page_id=1284] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/?page_id=1062] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/?page_id=1062] PURGE /?page_id=1062 HTTP/1.1
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/?page_id=1062] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/?page_id=1062] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:21:57 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=998] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=998] PURGE /?page_id=998 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=998] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=998] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1227] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1227] PURGE /?page_id=1227 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1227] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1227] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1493] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1493] PURGE /?page_id=1493 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1493] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1493] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1081] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1081] PURGE /?page_id=1081 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1081] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=1081] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=909] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=909] PURGE /?page_id=909 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=909] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:50 +0000] [http://www.bet-esport.com/?page_id=909] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1206] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1206] PURGE /?page_id=1206 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1206] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1206] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1143] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1143] PURGE /?page_id=1143 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1143] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1143] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1093] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1093] PURGE /?page_id=1093 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1093] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1093] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1119] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1119] PURGE /?page_id=1119 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1119] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1119] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1326] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1326] PURGE /?page_id=1326 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1326] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1326] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1570] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1570] PURGE /?page_id=1570 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1570] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1570] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1496] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1496] PURGE /?page_id=1496 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1496] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1496] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=906] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=906] PURGE /?page_id=906 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=906] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=906] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=772] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=772] PURGE /?page_id=772 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=772] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=772] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1339] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1339] PURGE /?page_id=1339 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1339] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1339] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1110] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1110] PURGE /?page_id=1110 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1110] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1110] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=940] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=940] PURGE /?page_id=940 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=940] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=940] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1023] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1023] PURGE /?page_id=1023 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1023] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1023] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1078] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1078] PURGE /?page_id=1078 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1078] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1078] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1157] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1157] PURGE /?page_id=1157 HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1157] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/?page_id=1157] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:22:51 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1038] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1038] PURGE /?page_id=1038 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1038] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1038] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1050] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1050] PURGE /?page_id=1050 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1050] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1050] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=965] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=965] PURGE /?page_id=965 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=965] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=965] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1571] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1571] PURGE /?page_id=1571 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1571] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1571] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1194] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1194] PURGE /?page_id=1194 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1194] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1194] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1035] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1035] PURGE /?page_id=1035 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1035] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1035] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1097] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1097] PURGE /?page_id=1097 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1097] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1097] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1707] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1707] PURGE /?page_id=1707 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1707] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1707] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1305] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1305] PURGE /?page_id=1305 HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1305] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/?page_id=1305] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:23:53 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/] Connecting to  ...
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/] PURGE / HTTP/1.1
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/page/2/] Connecting to  ...
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/page/2/] PURGE /page/2/ HTTP/1.1
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/page/2/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/page/2/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/feed/] Connecting to  ...
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/feed/] PURGE /feed/ HTTP/1.1
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/feed/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/match/yes-vs-tr/] Connecting to  ...
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/match/yes-vs-tr/] PURGE /match/yes-vs-tr/ HTTP/1.1
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/match/yes-vs-tr/] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/match/yes-vs-tr/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: www.bet-esport.com
+[Thu, 14 Apr 2016 05:40:58 +0000] [http://www.bet-esport.com/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.

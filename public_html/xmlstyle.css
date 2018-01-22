@@ -1,0 +1,55 @@
+    fdTime, id, lStatus, status, rotNum {
+    }
+    
+    fd {
+        width: 100%;
+        background-color: green;
+    }
+    
+startDateTime, IsLive, cutoffDateTime {
+    display: block;
+    font-size: .7em;
+    line-height: 1.2em;
+    margin: 0;
+}
+    homeTeam, awayTeam, description {
+        display: block;
+            font-size: .9em;
+    line-height: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    z-index: 999;
+	position: 
+    }
+    
+    spread{
+        display: block;
+        font-size: .7em;
+    line-height: 1.2em;
+    margin: 0;
+    }
+
+#xml-test CATALOG {
+    background-color: #332424;
+    width: 100%;
+}
+#xml-test CD {
+    display: block;
+    margin-bottom: 100pt;
+    margin-left: 0;
+}
+#xml-test TITLE {
+    display: block;
+    color: #ff5500;
+    font-size: 1pt;
+}
+#xml-test ARTIST {
+    display: block;
+    color: #0000ff;
+    font-size: 20pt;
+}
+COUNTRY, PRICE, YEAR, COMPANY {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}

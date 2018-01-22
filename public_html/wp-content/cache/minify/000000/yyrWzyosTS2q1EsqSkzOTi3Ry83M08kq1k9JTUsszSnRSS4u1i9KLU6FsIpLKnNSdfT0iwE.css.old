@@ -1,0 +1,88 @@
+/* See http://code.google.com/p/minify/wiki/CommonProblems#@imports_can_appear_in_invalid_locations_in_combined_CSS_files */
+div.jQBracket{font-family:Arial;font-size:14px;position:relative}div.jQBracket
+.tools{position:absolute;top:0;color:#FFF}div.jQBracket .tools
+span{cursor:pointer;margin:5px;display:block;text-align:center;width:18px;height:18px;background-color:#666}div.jQBracket .tools span:hover{background-color:#999}div.jQBracket
+.finals{float:right;right:0;clear:right;position:relative}div.jQBracket
+.bracket{float:right;clear:left}div.jQBracket
+.loserBracket{float:right;clear:left;position:relative}div.jQBracket
+.round{position:relative;width:100px;margin-right:40px;float:left}div.jQBracket
+.bracket_match{position:relative}div.jQBracket
+.editable{cursor:pointer}div.jQBracket
+.bracket_team{position:relative;z-index:1;float:left;background-color:#333;width:100px;cursor:default}div.jQBracket .bracket_team:first-child{border-bottom:1px solid #999}div.jQBracket .bracket_team
+input{font-size:12px;padding:0;width:inherit;border:0;margin:0}div.jQBracket .bracket_team
+div.label{padding-left:3px;position:absolute;width:70px;height:22px;white-space:nowrap;overflow:hidden;line-height:20px;color:#f0f0f0;vertical-align:middle}div.jQBracket .bracket_team div.label
+img{width:20px;height:20px}div.jQBracket .bracket_team div.label[disabled]{cursor:default}div.jQBracket .bracket_team
+div.score{float:right;padding:3px;background-color:rgba(255, 255, 255, .3);text-align:center;width:20px}div.jQBracket .bracket_team div.score[disabled]{color:#999;cursor:default}div.jQBracket .bracket_team div.label input.error,
+div.jQBracket .bracket_team div.score
+input.error{background-color:#FCC}div.jQBracket
+.bracket_team.np{background-color:#666;color:#EEE}div.jQBracket
+.bracket_team.na{background-color:#333;color:#CCC}div.jQBracket
+.bracket_team.win{color:#333}div.jQBracket .bracket_team.win
+div.score{color:#F9F9F9}div.jQBracket .bracket_team.lose
+div.score{color:#1c1c1c}div.jQBracket
+.bracket_team.lose{background-color:#222;color:#999}div.jQBracket .bracket_team.tie
+div.score{color:#00F}div.jQBracket
+.bracket_team.highlightWinner{background-color:#333;color:#000}div.jQBracket
+.bracket_team.highlightLoser{background-color:#222;color:#000}div.jQBracket
+.bracket_team.highlight{background-color:#f60;color:#000}div.jQBracket
+.teamContainer{z-index:1;position:relative;float:left}div.jQBracket
+.connector{border:2px
+solid #666;border-left-style:none;position:absolute;z-index:1}div.jQBracket .connector
+div.connector{border:0;border-bottom:2px solid #666;height:0;position:absolute}div.jQBracket .connector.highlightWinner,
+div.jQBracket .connector
+div.connector.highlightWinner{border-color:#DA0}div.jQBracket .connector.highlightLoser,
+div.jQBracket .connector
+div.connector.highlightLoser{border-color:#CCC}div.jQBracket .connector.highlight,
+div.jQBracket .connector
+div.connector.highlight{border-color:#f60}div.jQBracket .np .connector,
+div.jQBracket .np .connector
+div.connector{border-color:#222}div.jQBracket
+.bubble{height:22px;line-height:22px;width:30px;right:-35px;position:absolute;text-align:center;font-size:11px}div.jQBracket
+.bubble.third{background-color:#963;color:#D95}div.jQBracket
+.bubble.fourth{background-color:#678;color:#CCD}div.jQBracket .bubble:after{content:"";position:absolute;top:6px;width:0;height:0;border-top:5px solid transparent;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid transparent}div.jQBracket .bubble:after{left:-5px;border-left:0}div.jQBracket .bubble.third:after{border-right:6px solid #963}div.jQBracket .bubble.fourth:after{border-right:6px solid #678}div.jQBracket .highlightWinner
+.bubble{background-color:#DA0;color:#960}div.jQBracket .highlightWinner .bubble:after{border-right-color:#DA0}div.jQBracket .highlightLoser
+.bubble{background-color:#333;color:#333}div.jQBracket .highlightLoser .bubble:after{border-right-color:#CCC}div.jQBracket.rl
+.finals{float:left;left:0;clear:left}div.jQBracket.rl
+.bracket{float:left;clear:right}div.jQBracket.rl
+.loserBracket{float:left;clear:right}div.jQBracket.rl
+.round{margin-right:0;margin-left:40px;float:right}div.jQBracket.rl
+.bracket_team{float:right}div.jQBracket.rl .bracket_team
+div.label{right:0}div.jQBracket.rl .bracket_team
+div.score{float:left}div.jQBracket.rl
+.teamContainer{float:right}div.jQBracket.rl
+.connector{border-left-style:solid;border-right-style:none;border-width:2px}div.jQBracket.rl .connector.highlightWinner,
+div.jQBracket.rl .connector
+div.connector.highlightWinner{border-color:#DA0}div.jQBracket.rl .connector.highlightLoser,
+div.jQBracket.rl .connector
+div.connector.highlightLoser{border-color:#CCC}div.jQBracket.rl .connector.highlight,
+div.jQBracket.rl .connector
+div.connector.highlight{border-color:#f60}div.jQBracket.rl
+.bubble{left:-35px}div.jQBracket.rl
+.bubble.third{background-color:#963;color:#310}div.jQBracket.rl
+.bubble.fourth{background-color:#678;color:#CCD}div.jQBracket.rl .bubble:after{left:auto;right:-5px;border-left:5px solid transparent;border-right:0}div.jQBracket.rl .bubble.third:after{border-right:0;border-left:6px solid #963}div.jQBracket.rl .bubble.fourth:after{border-right:0;border-left:6px solid #678}div.jQBracket.rl .highlightWinner .bubble:after{border-left-color:#DA0}div.jQBracket.rl .highlightLoser .bubble:after{border-left-color:#CCC}@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);@font-face{font-family:'codropsicons';src:url('/fonts/codropsicons/codropsicons.eot');src:url('/fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+url('/fonts/codropsicons/codropsicons.woff') format('woff'),
+url('/fonts/codropsicons/codropsicons.ttf') format('truetype'),
+url('/fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');font-weight:normal;font-style:normal}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body,html{font-size:100%;padding:0;margin:0;height:100%}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}body{font-family:'Lato',Calibri,Arial,sans-serif;color:#89867e;background:#fff}a{color:#888;text-decoration:none}a:hover,a:active{color:#333}.main,.container>header{margin:0
+auto;padding:2em}.container>header{text-align:center}.container > header
+h1{font-size:2.625em;line-height:1.3;margin:0;font-weight:300}.container > header
+span{display:block;font-size:60%;opacity:0.5;padding:0
+0 0.6em 0.1em}.codrops-top{background:#fff;background:rgba(255, 255, 255, 0.6);text-transform:uppercase;width:100%;font-size:0.69em;line-height:2.2}.codrops-top
+a{padding:0
+1em;letter-spacing:0.1em;color:#888;display:inline-block}.codrops-top a:hover{background:rgba(255,255,255,0.95);color:#333}.codrops-top
+span.right{float:right}.codrops-top span.right
+a{float:left;display:block}.codrops-icon:before{font-family:'codropsicons';margin:0
+4px;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased}.codrops-icon-drop:before{content:"\e001"}.codrops-icon-prev:before{content:"\e004"}.codrops-icon-archive:before{content:"\e002"}.codrops-icon-next:before{content:"\e000"}.codrops-icon-about:before{content:"\e003"}.container{height:100%;position:relative}.container>section{margin:0
+auto;padding:5em
+3em;text-align:center;color:#fff}.container > section
+p{position:relative;margin:0;padding:1em;z-index:1}.container > section
+p.text{font-size:1.4em}.no-touch .note-touch{display:none}.color-1{background:#0e83cd}.color-2{background:#f06060}.color-3{background:#fcd04b}.color-4{background:#2ecc71}.color-5{background:#9e54bd}.color-6{background:#4593e3}.color-7{background:#2ac56c}.color-8{background:#ecf0f1}.color-8
+p.text{color:#aaa;font-weight:bold}@media screen and (max-width:25em){.codrops-icon
+span{display:none}}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html
+*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{font-size:100%;font-family:"Bitter",sans-serif;color:#f5f4ed;background-color:#000}a{color:#e86256;text-decoration:none}.cd-container{width:90%;max-width:768px;margin:2em
+auto}.cd-container::after{content:'';display:table;clear:both}header{background:#000;height:100px;text-align:center}header
+h1{font-size:20px;font-size:1.25rem;font-weight:bold;font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:bold;padding-top:1.6em;margin-bottom:.2em}header
+p{font-size:13px;font-size:0.8125rem;color:#957484}@media only screen and (min-width:1024px){header{height:200px}header
+h1{font-size:30px;font-size:1.875rem;padding-top:2.6em}}main
+p{font-size:16px;font-size:1rem;line-height:1.6;margin:2em
+0}@media only screen and (min-width:1024px){main
+p{font-size:20px;font-size:1.25rem}}.cd-top{display:inline-block;height:40px;width:40px;position:fixed;bottom:40px;right:10px;box-shadow:0 0 10px rgba(0, 0, 0, 0.05);overflow:hidden;text-indent:100%;white-space:nowrap;background:rgba(255, 102, 0, 0.8) url(/img/cd-top-arrow.svg) no-repeat center 50%;visibility:hidden;opacity:0;-webkit-transition:opacity .3s 0s, visibility 0s .3s;-moz-transition:opacity .3s 0s, visibility 0s .3s;transition:opacity .3s 0s, visibility 0s .3s}.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover{-webkit-transition:opacity .3s 0s, visibility 0s 0s;-moz-transition:opacity .3s 0s, visibility 0s 0s;transition:opacity .3s 0s, visibility 0s 0s}.cd-top.cd-is-visible{visibility:visible;opacity:1}.cd-top.cd-fade-out{opacity:.5}.no-touch .cd-top:hover{background-color:#F60;opacity:1}@media only screen and (min-width:768px){.cd-top{right:20px;bottom:20px}}@media only screen and (min-width:1024px){.cd-top{height:60px;width:60px;right:30px;bottom:30px}}

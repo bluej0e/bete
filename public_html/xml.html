@@ -1,0 +1,81 @@
+<html>
+    <head>
+
+
+<script>
+function() {
+        function pinOdds() {
+            $("#loadingDiv").hide().ajaxStart(function() {
+                $(this).show()
+            }).ajaxStop(function() {
+                $(this).hide()
+            }), $.ajax({
+                type: "GET",
+                url: url_pinnacle + "pinnaclelines",
+                dataType: "xml",
+                cache: !1,
+                success: pinnacleXmlToTable
+            })
+        }
+
+        function pinnacleXmlToTable(xml) {
+            $(xml).find("league").each(function() {
+                var leagueId = $(this).find("id").first().text(),
+                    currentHeading = $(document.createElement("h2"));
+                $.ajax({
+                    type: "GET",
+                    url: url_pinnacle + "pinnacleleagues",
+                    dataType: "xml",
+                    cache: !1,
+                    success: function(t) {
+                        $(t).find("league").each(function() {
+                            $(this).attr("id") == leagueId && currentHeading.append($(this).text())
+                        })
+                    },
+                    error: function(xhr, status, error) {
+                        alert(xhr), alert(status), alert(error);
+                        var err = eval("(" + xhr.responseText + ")");
+                        alert(err.Message)
+                    }
+                }), $("#pinnacleDiv").append(currentHeading);
+                var currentTable = $(document.createElement("table")).attr("class", "pinnacleodds").attr("id", "tblPinnacle"),
+                    currentTableHead = $(document.createElement("thead")).attr("class", "pinnacleodds");
+                currentTableHead.append("<tr><th width='170'>Date</th><th width='250'>Team 1</th><th width='250'>Team 2</th><th width='70'>1</th><th width='70'>2</th></tr>"), currentTable.append(currentTableHead);
+                var currentTableBody = $(document.createElement("tbody")).attr("class", "pinnacleodds");
+                currentTable.append(currentTableBody);
+                var htmln = "";
+                $(this).find("event").each(function() {
+                    var t = $(this).find("startDateTime").text();
+                    currentTableBody.append("<tr id='pinnacle_line' data-league='" + leagueId + "' onClick='betlink_pinnacle(" + leagueId.toString() + ")'><td nowrap='nowrap'>" + t.split("T")[0] + " " + t.split("T")[1].split(":00Z")[0] + "</td><td>" + $(this).find("homeTeam").find("name").text() + "</td><td>" + $(this).find("awayTeam").find("name").text() + "</td><td>" + $(this).find("moneyLine").find("homePrice").text() + "</td><td>" + $(this).find("moneyLine").find("awayPrice").text() + "</td></tr>")
+                }), $("#pinnacleDiv").append(currentTable)
+            })
+        }
+        var url_pinnacle = "http://www.bet-esport.com/xmlfeed/";
+        $(".odds.pinnacle").ready(function() {
+            return pinOdds()
+        }), $(".pages.home").ready(function() {
+            return pinOdds()
+        }), $(".bookmakers.show").ready(function() {
+            return pinOdds()
+        }), $(".posts.show").ready(function() {
+            return pinOdds()
+        }), $(".posts.index").ready(function() {
+            return pinOdds()
+        }), $(".category.showtag").ready(function() {
+            return pinOdds()
+        }), $(".category.showcat").ready(function() {
+            return pinOdds()
+        })
+    };
+
+</script>
+</head>
+        
+   
+    <body>
+    <h1> test </h1>
+     < type="" value="pinOdds"/>
+    
+    
+</body>
+</html>
