@@ -804,6 +804,11 @@ function remove_old_tournaments() {
   global $wpdb;
   $wpdb->query($wpdb->prepare("DELETE FROM wp_posts WHERE post_type='tpurnament' AND post_date < DATE_SUB(NOW(), INTERVAL 7 DAY);"));
 }
+     
 
+add_action('init', 'my_custom_init');
+function my_custom_init() {
+    add_post_type_support( 'match', 'publicize' );
+}     
 
 ?>
