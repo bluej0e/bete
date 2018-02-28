@@ -13,7 +13,7 @@
 <!-- < ?php include('buttonsbar.php');?> -->
 
 
-<style>torneogroup{display:hidden}</style>
+<style>.torneogroup{display:hidden}</style>
 
 <?php
 ButtonGeneratorHome();
