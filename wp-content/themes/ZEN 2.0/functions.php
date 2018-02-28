@@ -90,11 +90,11 @@ function GameFetcher($gametype){
 function TournamentSep($tor_array){
   foreach ($tor_array as $key=>$tor){
     echo '<a href="/tournament/'.seoUrl($tor[0]['gametype']).'-'.seoUrl($key).'" class="torneogroup '. seoUrl($tor[0]['gametype']) .'"  id="'. seoUrl($key) .'" value="'. $tor[0]['gametype'] .'">';
-    echo '<img alt="'.$tor[0]['gametype'].'" src="/i/p/'. seoUrl($tor[0]['gametype']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">'. $key .'</h2></a>';
+    echo '<img alt="'.$tor[0]['gametype'].'" src="/i/p/'. seoUrl($tor[0]['gametype']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">'. $key .'</h2>';
     echo '<div class="torneogroups">';
     MatchBoxes($tor);
     echo '</div>';
-      
+    echo '</a>';  
   }
 }
 
