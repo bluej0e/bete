@@ -242,7 +242,7 @@ function TournamentSepHome($tor_array){
     echo '<div class="torneogroup '. seoUrl($tor[0]['gametype']) .'"  id="'. seoUrl($key) .'" value="'. $tor[0]['gametype'] .'">';
     echo '<a href="/'.seoUrl($tor[0]['gametype']).'-matches" ><div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><h2 style="width:70%; margin: 0 auto;">'. $key .'</h2></div></div></a>';
     MatchBoxes($tor);
-    echo '<br><br></div>';
+    echo '<br><div class="showmore"></div><br></div>';
   }
 }
 

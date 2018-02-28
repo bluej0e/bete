@@ -17,11 +17,7 @@
 
 <?php
 ButtonGeneratorHome();
-
-// $gametypes = array('Dota 2', 'CS GO', 'League of Legends', 'Starcraft 2', 'Hearthstone', 'Other');
-
 GameFetcherHome(gta());
-
 ?>
 
 <div id="nonehere" style="display:none">No matches for this game type</div>
