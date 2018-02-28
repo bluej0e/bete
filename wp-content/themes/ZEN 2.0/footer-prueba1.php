@@ -51,6 +51,7 @@ a.side_help:hover{
 		<a class="tournaments" style="width:100%;clear:both;" href="http://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
 		<br>
 	</div>
+
 	<div class="four columns">
 		<h4>Check out this video guide to understand how odds work</h4>
 		<br>
@@ -59,7 +60,9 @@ a.side_help:hover{
 			</iframe>
 		</div>
 	</div>
-<div style="width:100%;clear:both;"></div>
+
+	<div style="width:100%;clear:both;"></div>
+	
 	<div class="footer">
 		<div class="twelve columns" >
 			<center>    			
@@ -97,39 +100,39 @@ a.side_help:hover{
 
 </body> 
 <script>
-  $(document).ready(function() {
-    $(".clickable-row").click(function() {
-      window.document.location = $(this).find('a').attr("href");
-    });
+	$(document).ready(function() {
+		$(".clickable-row").click(function() {
+			window.document.location = $(this).find('a').attr("href");
+		});
 
-var other_games = [ "dota-2", "cs-go", "league-of-legends", "starcraft-2", "starcraft", "warcraft-iii", "hearthstone", "overwatch", "call-of-duty", "black-ops", "warcraft", "world-of-tanks", "world-of-warcraft", "rocket-league", "pubg", "heroes-of-the-storm"];
+		var other_games = [ "dota-2", "cs-go", "league-of-legends", "starcraft-2", "starcraft", "warcraft-iii", "hearthstone", "overwatch", "call-of-duty", "black-ops", "warcraft", "world-of-tanks", "world-of-warcraft", "rocket-league", "pubg", "heroes-of-the-storm"];
 
-    $('.showsinglegame').click(function(){
-      if($(this).val() == 'all'){ 
-        $('.torneogroup').show();
-      }else if (other_games.indexOf($(this).val()) != -1 ) {
-        $('.torneogroup').show();
-        $('.torneogroup:not(.'+$(this).val()+')').hide();
-      } else { 
-        $('.torneogroup').show();
-        for(var i = 0; i < other_games.length; i++){
-          $('.'+ other_games[i] ).hide();
-        }
-      }
-    } 
-    );
+		$('.showsinglegame').click(function(){
+			if($(this).val() == 'all'){ 
+				$('.torneogroup').show();
+			}else if (other_games.indexOf($(this).val()) != -1 ) {
+				$('.torneogroup').show();
+				$('.torneogroup:not(.'+$(this).val()+')').hide();
+			} else { 
+				$('.torneogroup').show();
+				for(var i = 0; i < other_games.length; i++){
+					$('.'+ other_games[i] ).hide();
+				}
+			}
+		} 
+		);
 
-    if($('.torneogroup').is(':hidden')){
-      $('#nonehere').show();
-    }else{
-      $('#nonehere').hide();
-    }
+		if($('.torneogroup').is(':hidden')){
+			$('#nonehere').show();
+		}else{
+			$('#nonehere').hide();
+		}
 
-    $("#opendiv").click(function(){
-      $("#hiddenmenu").toggle();
-    })
+		$("#opendiv").click(function(){
+			$("#hiddenmenu").toggle();
+		})
 
-  }); 
+	}); 
 </script>
 <script>
 	(function () {

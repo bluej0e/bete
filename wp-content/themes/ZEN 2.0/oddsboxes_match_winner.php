@@ -46,10 +46,6 @@
 
 }
 
-
-
-
-
 .az:hover > .lg1{
 	transform: scale(1.1);
 }
@@ -95,7 +91,7 @@
 	color: #f0f0f0;
 	font-size: 1.9em;
 	line-height: 1.25em;
-	z-index: 999;
+	z-index: 80;
 	position: relative;
 }
 
