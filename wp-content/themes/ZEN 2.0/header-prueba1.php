@@ -39,8 +39,6 @@
     </head>
     <body>
         <div id="fixed-div">
-            <?php edit_post_link('<i class="fa fa-pencil-square fa-3x" aria-hidden="true"></i>
-'); ?>
+            <?php edit_post_link('<i class="fa fa-pencil-square fa-3x" aria-hidden="true"></i>'); ?>
         </div>
         <?php include('menubar.php'); ?>
-
