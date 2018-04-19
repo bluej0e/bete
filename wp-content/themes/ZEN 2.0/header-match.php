@@ -19,7 +19,7 @@
 	<meta name="googlebot" content="<?php echo $robocop; ?>" />
 	<meta name="revisit-after" content="2 days" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script src="//my.hellobar.com/bea66eed0652618cc7b8aa9d4847fd4dcc5990fb.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<!-- <script src="//my.hellobar.com/bea66eed0652618cc7b8aa9d4847fd4dcc5990fb.js" type="text/javascript" charset="utf-8" async="async"></script> -->
 	<link rel="stylesheet" type="text/css" href="/s2.css">
 	<link rel="stylesheet" type="text/css" href="/s2m.css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
