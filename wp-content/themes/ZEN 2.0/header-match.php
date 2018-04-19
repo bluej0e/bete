@@ -19,17 +19,11 @@
 	<meta name="googlebot" content="<?php echo $robocop; ?>" />
 	<meta name="revisit-after" content="2 days" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- <script src="//my.hellobar.com/bea66eed0652618cc7b8aa9d4847fd4dcc5990fb.js" type="text/javascript" charset="utf-8" async="async"></script> -->
-<!-- 	<link rel="stylesheet" type="text/css" href="/s2.css">
-	<link rel="stylesheet" type="text/css" href="/s2m.css">
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="/js/jquery.simple.timer.js"></script> -->
-
-
-
-<!-- 	<script type="text/javascript" src="/js/moment-with-locales.min.js"></script>
- --><!-- 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
- -->	<!--?php wp_head(); ?-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="/js/jquery.simple.timer.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="/s2.css">
+	<link rel="stylesheet" type="text/css" href="/s2m.css">-->
+<!--?php wp_head(); ?-->
 </head>
 
 <body>
@@ -55,7 +49,7 @@
 	<!-- End Google Tag Manager -->
 	<div id="fixed-div">
 		<?php edit_post_link('<i class="fa fa-pencil-square fa-3x" aria-hidden="true"></i>
-'); ?>
+		'); ?>
 	</div>
 	
 	<?php include('menubar.php'); ?>
