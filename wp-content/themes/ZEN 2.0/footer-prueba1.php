@@ -63,23 +63,23 @@ a.side_help:hover{
 	<div class="footer">
 		<div class="twelve columns" >
 			<center>    			
-				<a href="https://www.facebook.com/betesportcom/" target="_blank">
+				<a rel="noopener" href="https://www.facebook.com/betesportcom/" target="_blank">
 					<i class="fa fa-facebook-official fa-3x">
 					</i>
 				</a>
-				<a href="https://twitter.com/BetEsportCom" target="_blank">
+				<a rel="noopener" href="https://twitter.com/BetEsportCom" target="_blank">
 					<i class="fa fa-twitter fa-3x">
 					</i> 
 				</a>
-				<a href="https://www.youtube.com/channel/UC_7AsMpmxsT1veTjqLO5RTg" target="_blank">
+				<a rel="noopener" href="https://www.youtube.com/channel/UC_7AsMpmxsT1veTjqLO5RTg" target="_blank">
 					<i class="fa fa-youtube-play fa-3x">
 					</i>
 				</a>
-				<a href="https://plus.google.com/+Betesports" target="_blank">
+				<a rel="noopener" href="https://plus.google.com/+Betesports" target="_blank">
 					<i class="fa fa-google-plus fa-3x">
 					</i> 
 				</a>
-				<a href="http://feeds.feedburner.com/###o/" target="_blank">
+				<a rel="noopener" href="http://feeds.feedburner.com/###o/" target="_blank">
 					<i class="fa fa-rss-square fa-3x">
 					</i> 
 				</a>
