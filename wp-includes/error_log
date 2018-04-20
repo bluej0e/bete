@@ -1,4 +1,0 @@
-[01-Jan-2017 11:30:26 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/rodrigo29335/public_html/wp-includes/session.php on line 8
-[01-Jan-2017 13:36:46 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/rodrigo29335/public_html/wp-includes/functions.php on line 8
-[01-Jan-2017 13:36:46 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/rodrigo29335/public_html/wp-includes/functions.php on line 8
-[01-Jan-2017 13:36:46 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rodrigo29335/public_html/wp-includes/functions.php on line 8
