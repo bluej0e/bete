@@ -225,7 +225,7 @@ function TournamentCreator($title, $name, $tax_input, $meta_input) {
 						} else {
 						}
 					}
-				} elseif ($gameytype == "Heros of the Storm") {
+				} elseif ($gameytype == "Heroes of the Storm") {
 					foreach($herosteamranks as $teamn => $tr) {
 						if (seoUrl($t1name) == $teamn) {
 							$t1rank = $tr;

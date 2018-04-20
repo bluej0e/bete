@@ -1,6 +1,6 @@
 <?php  get_header(); 
 /*
-Template Name: Search Page
+Template Name: Search
 */
 ?> ?>
 

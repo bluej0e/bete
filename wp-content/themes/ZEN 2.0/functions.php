@@ -1,7 +1,7 @@
 <?php
 
 function gta() {
-  return array('Dota 2', 'CS GO', 'League of Legends', 'Starcraft 2', 'Starcraft', 'Warcraft III', 'Hearthstone', 'Overwatch', 'Call of Duty', 'Black Ops', 'Warcraft', 'World of Tanks', 'World Of Warcraft', 'Rocket League', 'PUBG', "Heroes Of The Storm");
+  return array('Dota 2', 'CS GO', 'League of Legends', 'Starcraft 2', 'Starcraft', 'Warcraft III', 'Hearthstone', 'Overwatch', 'Call of Duty', 'Black Ops', 'Warcraft', 'World of Tanks', 'World Of Warcraft', 'Rocket League', 'PUBG', 'Heroes of the Storm');
 }
 
 /*makes string URL friendly*/
