@@ -102,7 +102,7 @@ a.side_help:hover{
       window.document.location = $(this).find('a').attr("href");
     });
 
-var other_games = [ "dota-2", "cs-go", "league-of-legends", "starcraft-2", "starcraft", "warcraft-iii", "hearthstone", "overwatch", "call-of-duty", "black-ops", "warcraft", "world-of-tanks", "world-of-warcraft", "rocket-league", "pubg", "heroes-of-the-storm"];
+var other_games = [ "dota-2", "cs-go", "league-of-legends", "heroes-of-the-storm", "starcraft-2", "starcraft", "warcraft-iii", "hearthstone", "overwatch", "call-of-duty", "black-ops", "warcraft", "world-of-tanks", "world-of-warcraft", "rocket-league", "pubg"];
 
     $('.showsinglegame').click(function(){
       if($(this).val() == 'all'){ 
