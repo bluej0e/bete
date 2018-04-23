@@ -410,7 +410,7 @@ function TournamentSepT($tor_array){
 
 /* REMOVES GAMETYPE FROM STRING */
 function RemoveGameType($gamename){
-  $types = array('Dota 2', 'CS GO', 'League of Legends', 'Starcraft 2', 'Starcraft', 'Warcraft III', 'Hearthstone', 'Overwatch', 'Call of Duty', 'Black Ops', 'Warcraft', 'Starcraft II', 'World of Tanks', 'World of Warcraft', 'Rocket League', 'PUBG');
+  $types = array('Dota 2', 'CS GO', 'League of Legends', 'Heroes of the Storm', 'Starcraft 2', 'Starcraft', 'Warcraft III', 'Hearthstone', 'Overwatch', 'Call of Duty', 'Black Ops', 'Warcraft', 'Starcraft II', 'World of Tanks', 'World of Warcraft', 'Rocket League', 'PUBG');
   return trim(str_replace($types, '', $gamename));
 }
 
