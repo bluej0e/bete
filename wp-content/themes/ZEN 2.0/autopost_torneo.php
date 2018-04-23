@@ -69,7 +69,7 @@ function MatchCreator($title, $name, $tax_input, $meta_input, $meta_update) {
 		} 
 	}
 }
-$gtypes =["[League of Legends]", "[Overwatch]", "[CS GO]", "[Hearthstone]", "[Dota 2]", "[Heroes Of The Storm]", "[Starcraft 2]", "[Call Of Duty]", "[Dota]", "[Rocket League]", "[Starcraft Broodwar]", "[World Of Tanks]", "[Starcraft]", "[World Of Warcraft]", "[WarCraft III]", "[Warcraft 3]"];
+$gtypes =["[League of Legends]", "[Overwatch]", "[CS GO]", "[Hearthstone]", "[Dota 2]", "[Heroes Of The Storm]", "[Heroes of the Storm]", "[Starcraft 2]", "[Call Of Duty]", "[Dota]", "[Rocket League]", "[Starcraft Broodwar]", "[World Of Tanks]", "[Starcraft]", "[World Of Warcraft]", "[WarCraft III]", "[Warcraft 3]"];
 
 foreach($jsonarray['Event'] as $Event){
 
