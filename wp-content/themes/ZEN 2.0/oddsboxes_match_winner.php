@@ -236,7 +236,7 @@
 			</a>
 		</div>
 		<center><p style="margin-bottom:1px; font-size: 0.8em;">Select to bet on who you think will win the match</p>
-			<div class="betnowbox">BET NOW</div>
+			<a href="<?php echo $quicklink; ?>" class="betnowbox">BET NOW</a>
 		</center>
 
 		<!-- <div style="height:1em;"></div> -->
