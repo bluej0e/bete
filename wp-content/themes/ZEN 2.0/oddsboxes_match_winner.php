@@ -195,20 +195,22 @@
 	opacity: 1;
 }
 .betnowbox:before {
-	content: "\f061";
+
 }
 .betnowbox:before {
 	position: absolute;
 	height: 100%;
 	font-size: 125%;
-	line-height: 3.5;
+	line-height: 2;
 	color: #f0f0f0;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	left: 70%;
+	left: 60%;
 	opacity: 0;
 	top: 0;
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f061";
 }
 .betnowbox:active:before {
 	color: orangered;
