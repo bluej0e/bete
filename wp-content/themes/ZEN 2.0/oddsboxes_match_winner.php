@@ -209,7 +209,7 @@
 	left: 60%;
 	opacity: 0;
 	top: 0;
-	font: normal normal normal 14px/1 FontAwesome;
+	font-family: FontAwesome;
 	content: "\f061";
 }
 .betnowbox:active:before {
