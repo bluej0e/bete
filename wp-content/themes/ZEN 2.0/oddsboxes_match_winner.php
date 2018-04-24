@@ -201,7 +201,7 @@
 	position: absolute;
 	height: 100%;
 	font-size: 125%;
-	line-height: 2;
+	line-height: 2em;
 	color: #f0f0f0;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
