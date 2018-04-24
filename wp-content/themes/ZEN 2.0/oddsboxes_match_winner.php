@@ -188,14 +188,14 @@
 	overflow: hidden;
 }
 .betnowbox:hover{
-	background-color: #ff6600;
+	background-color: orangered;
 }
 .betnowbox:hover:before {
 	left: 80%;
 	opacity: 1;
 }
-.icon-arrow-right:before {
-	content: "\e00d";
+.betnowbox:before {
+	content: "\f061";
 }
 .betnowbox:before {
 	position: absolute;
@@ -211,7 +211,7 @@
 	top: 0;
 }
 .betnowbox:active:before {
-	color: #ff6600;
+	color: orangered;
 }
 </style>
 <div class="row">
@@ -234,7 +234,7 @@
 			</a>
 		</div>
 		<center><p style="margin-bottom:1px; font-size: 0.8em;">Select to bet on who you think will win the match</p>
-			<div class="betnowbox icon-arrow-right">BET NOW</div>
+			<div class="betnowbox">BET NOW</div>
 		</center>
 
 		<!-- <div style="height:1em;"></div> -->
