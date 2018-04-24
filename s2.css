@@ -1525,9 +1525,9 @@ h5 a:hover {
 				font-weight:900 ;
 			}
 			.partido img {
-			height: 100%;
+				height: 100%;
 				width: 100%;
-			max-width: 100px;
+				max-width: 100px;
 				max-height: 100px;
 			}
 			.partido:hover {
@@ -1740,45 +1740,46 @@ h5 a:hover {
 				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 				cursor: pointer;
 				border: 1px solid #676f81;
-				}
-				.tournament-head{
-					background: url(/i/tournament-header.jpg) no-repeat center center;
-					width: 100%;
-					height: 100px;
-					text-align: center;
-					display: table;
-				}
-				.gametype-head{
-					width: 100%;
-					height: 100px;
-					text-align: center;
-					display: table;
-				}
-				.gametype-head-inner{
-					display: table-cell; 
-					vertical-align: middle;
-				}
+			}
+			.tournament-head{
+				background: url(/i/tournament-header.jpg) no-repeat center center;
+				width: 100%;
+				height: 100px;
+				text-align: center;
+				display: table;
+			}
+			.gametype-head{
+				width: 100%;
+				height: 100px;
+				text-align: center;
+				display: table;
+			}
+			.gametype-head-inner{
+				display: table-cell; 
+				vertical-align: middle;
+			}
 
 
 
-				.mpt1, .mpt2{
-					background-color: rgba(61, 70, 88, 0.3);
-					border: 1px solid #3D4658;
-					display: inline-block;
-					padding: 1em;
-					text-transform: uppercase;
-					font-weight: 800;
-					font-family: 'Quantico', sans-serif;
-					overflow: visible;
-					box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-					transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-				}
-				.mpt1:hover, .mpt2:hover{
-					background-color: #252C3A!important;
-					-webkit-transition: all 0.2s ease-in-out;
-					-moz-transition: all 0.2s ease-in-out;
-					-o-transition: all 0.2s ease-in-out;
-					box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-					cursor: pointer;
-					border: 1px solid #676f81;
-				}
+			.mpt1, .mpt2{
+				background-color: rgba(61, 70, 88, 0.3);
+				border: 1px solid #3D4658;
+				display: inline-block;
+				padding: 0.4em;
+				text-transform: uppercase;
+				font-weight: 800;
+				font-family: 'Quantico', sans-serif;
+				overflow: visible;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+				transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+			}
+			.mpt1:hover, .mpt2:hover{
+				background-color: #252C3A!important;
+				-webkit-transition: all 0.2s ease-in-out;
+				-moz-transition: all 0.2s ease-in-out;
+				-o-transition: all 0.2s ease-in-out;
+				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+				cursor: pointer;
+				border: 1px solid #676f81;
+			}
+			

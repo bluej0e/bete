@@ -165,6 +165,54 @@
 		font-size: 4vw;
 	}
 }
+.betnowbox{
+	font-family: inherit;
+	font-size: 2.5em;
+	color: white;
+	background: #b71d1e;
+	cursor: pointer;
+	padding: 0.5em;
+	text-align: center;
+	width: 70%;
+	display: inline-block;
+	margin: 0.5em auto;
+	font-family: 'Anton';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transform: skewX(-10deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border: 2px solid #f0f0f0;
+	color: #f0f0f0;
+	overflow: hidden;
+}
+.betnowbox:hover{
+	background-color: #ff6600;
+}
+.betnowbox:hover:before {
+	left: 80%;
+	opacity: 1;
+}
+.icon-arrow-right:before {
+	content: "\e00d";
+}
+.betnowbox:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #f0f0f0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	left: 70%;
+	opacity: 0;
+	top: 0;
+}
+.betnowbox:active:before {
+	color: #ff6600;
+}
 </style>
 <div class="row">
 	<div class="gdiv">		
@@ -185,9 +233,11 @@
 				<div class="txodds"><div class="team_name"><?php echo $t2name; ?></div><br>Odds: <?php echo $t2odds; ?><br>Chance to Win <?php echo round((1/$t2odds)*100)-4; ?>%</div>
 			</a>
 		</div>
-		<center><p style="margin-bottom:2px; font-size: 0.8em;">Select to bet on who you think will win the match</p></center>
+		<center><p style="margin-bottom:1px; font-size: 0.8em;">Select to bet on who you think will win the match</p>
+			<div class="betnowbox icon-arrow-right">BET NOW</div>
+		</center>
 
-		<div style="height:1em;"></div>
+		<!-- <div style="height:1em;"></div> -->
 	</div>
 </div>
 
