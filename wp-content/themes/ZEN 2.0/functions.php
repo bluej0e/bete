@@ -457,6 +457,7 @@ function ButtonMaker($torneo_arrayB){
   foreach ($torneo_arrayB as $key => $ppp) {
     if (!in_array($key, $buttonExclude)){
       $newKey = array_search($key,$allGames);
+      var_dump($key);
       echo '<button class="showsinglegame gamebutton" value="'.seoUrl($key).'" target="'. $newKey .'"><img alt="'.$key.'" src="http://www.bet-esport.com/i/'.seoUrl($key).'_300.png"></button>';
     }
   }
