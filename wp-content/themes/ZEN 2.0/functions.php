@@ -453,11 +453,11 @@ function ButtonMaker($torneo_arrayB){
   $buttonExclude = array('Dota 2', 'CS GO', 'League of Legends');
   $allGames = gta();
   echo '<div class="buttons" style="text-align: center;"><button id="opendiv" class="gamebutton" ><img alt="Show All" src="http://www.bet-esport.com/i/more_300.png"></button><button class="showsinglegame gamebutton" value="league-of-legends" target="1"><img alt="League of Legends" src="http://www.bet-esport.com/i/league-of-legends_300.png"></button><button class="showsinglegame gamebutton" value="dota-2" target="2"><img alt="Dota 2" src="http://www.bet-esport.com/i/dota-2_300.png"></button><button class="showsinglegame gamebutton" value="cs-go" target="3"><img alt="CS GO" src="http://www.bet-esport.com/i/cs-go_300.png"></button><div id="hiddenmenu" style="display:none"><button class="showsinglegame gamebutton" value="all" ><img alt="Show All" src="http://www.bet-esport.com/i/showall_300.png"></button>';
+      var_dump($torneo_arrayB);
 
   foreach ($torneo_arrayB as $key => $ppp) {
     if (!in_array($key, $buttonExclude)){
       $newKey = array_search($key,$allGames);
-      var_dump($key);
       echo '<button class="showsinglegame gamebutton" value="'.seoUrl($key).'" target="'. $newKey .'"><img alt="'.$key.'" src="http://www.bet-esport.com/i/'.seoUrl($key).'_300.png"></button>';
     }
   }
