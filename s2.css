@@ -1743,6 +1743,9 @@ h5 a:hover {
 				cursor: pointer;
 				border: 1px solid #676f81;
 			}
+			.gamebutton img{
+				background-color: black;
+			}
 			.tournament-head{
 				background: url(/i/tournament-header.jpg) no-repeat center center;
 				width: 100%;
