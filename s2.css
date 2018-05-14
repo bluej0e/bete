@@ -2,7 +2,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	    background-color: #212121;
+	    /*background-color: #212121;*/
 
 }
 
@@ -1744,7 +1744,7 @@ h5 a:hover {
 				border: 1px solid #676f81;
 			}
 			.gamebutton img{
-				background-color: black;
+				background-color: transparent;
 			}
 			.tournament-head{
 				background: url(/i/tournament-header.jpg) no-repeat center center;
@@ -1786,5 +1786,8 @@ h5 a:hover {
 				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 				cursor: pointer;
 				border: 1px solid #676f81;
+			}
+			*{
+				background-color: #212121;
 			}
 			
