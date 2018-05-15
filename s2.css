@@ -1763,9 +1763,6 @@ h5 a:hover {
 				display: table-cell; 
 				vertical-align: middle;
 			}
-
-
-
 			.mpt1, .mpt2{
 				background-color: rgba(61, 70, 88, 0.3);
 				border: 1px solid #3D4658;
@@ -1787,4 +1784,3 @@ h5 a:hover {
 				cursor: pointer;
 				border: 1px solid #676f81;
 			}
-			
