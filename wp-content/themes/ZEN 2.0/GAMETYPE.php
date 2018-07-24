@@ -7,8 +7,6 @@ $gamepage = str_replace(' Matches', '', get_the_title());
     <div class="tournament-head" style="background: url(/i/<?php echo seoUrl($gamepage); ?>-header.jpg) no-repeat center center" class="gametype-head">
         <div class="gametype-head-inner">
             <h1><?php echo $gamepage; ?></h1>
-            <span class="arrow primera next bounceAlpha"></span>
-            <span class="arrow segunda next bounceAlpha"></span>
         </div>
     </div>
     <h2>All current <?php echo $gamepage; ?> games</h2>
