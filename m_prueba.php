@@ -10,19 +10,19 @@
     </h5>
     <hr> -->
 
-<!-- < ?php include('buttonsbar.php');?> -->
-
-
-<style>.torneogroup{display:hidden}</style>
+<?php include('buttonsbar.php');?>
+<style>torneogroup{display:hidden}</style>
 
 <?php
+
+$gametypes = gta();
 ButtonGeneratorHome();
-GameFetcherHome(gta());
+GameFetcherHome($gametypes);
+
 ?>
 
 <div id="nonehere" style="display:none">No matches for this game type</div>
-<br>
+<br />
 <hr>
-
 
 <?php get_footer('prueba1'); ?>
