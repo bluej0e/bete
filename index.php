@@ -1,28 +1,17 @@
-<?php get_header('prueba1');?>
-<div class="row">
-  <div class="twelve columns">
-    <!--  <br>
-   <h1>Welcome to Bet eSport!</h1>
-    <h5>Everything you need to know about betting on eSports all in one place. Bet eSport combines information about matches, teams, tournaments, and gives you a look into the world of eSports betting. Here you’ll find live odds, articles, and information to help you win through eSports bets.
-      <br> 
-      <br>           
-      New to <a href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/"><strong>eSports betting</strong></a>? Check out the links on the right
-    </h5>
-    <hr> -->
-
-<!-- < ?php include('buttonsbar.php');?> -->
-
-
-<style>.torneogroup{display:hidden}</style>
-
 <?php
-ButtonGeneratorHome();
-GameFetcherHome(gta());
-?>
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-<div id="nonehere" style="display:none">No matches for this game type</div>
-<br>
-<hr>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-
-<?php get_footer('prueba1'); ?>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
