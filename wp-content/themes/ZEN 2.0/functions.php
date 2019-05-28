@@ -226,7 +226,7 @@ function GameFetcherHome($gametype){
       endwhile; endif;
       foreach ($torneo_array2 as $key=>$tor){
         echo '<div class="torneogroup other"  id="other" value="other">';
-        echo '<div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><h2 style="width:70%; margin: 0 auto;">'. $key .'</h2><a href="/'.seoUrl($tor[0]['gametype']).'-matches">View all</a></div></div>';
+        echo '<div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><div></div><div style="justify-content:center"><h2>'. $key .'</h2></div><div style="justify-content:flex-end"><a href="/'.seoUrl($tor[0]['gametype']).'-matches">View all</a></div></div></div>';
         MatchBoxes($tor);
         echo '<br><br></div>';
       }
