@@ -21,7 +21,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script src="/js/jquery.simple.timer.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
 	<link rel="icon" href="/i/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="/s2.css">
 	<link rel="stylesheet" type="text/css" href="/s2m.css">
