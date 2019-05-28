@@ -284,6 +284,7 @@ h5 a:hover {
 	h2 {
 		font-size: 1.7em;
 		text-transform: uppercase;
+    margin: 20px 0;
 	}
 
 	h3 {
