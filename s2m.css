@@ -189,7 +189,7 @@ only screen and (max-width:767px) {
 	.timebox {
 		font-size: 1em;
 	}
-	.tourname{    
+	.tourname{
 		font-size: 0.7em;
 	}
 	.centerbox,
@@ -405,7 +405,7 @@ only screen and (max-width:767px) {
 		font-size: 1em;
 
 	}
-	.tourname{    
+	.tourname{
 		width: 100%;
 		line-height: 1.4em;
 		font-weight:900 ;
@@ -502,5 +502,8 @@ only screen and (max-width:767px) {
 	.nav-bar-btn {
 		width: 20%;
 		font-size: 7vw;
+	}
+	.gametype-head-inner{
+
 	}
 }
