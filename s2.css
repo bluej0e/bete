@@ -1773,6 +1773,10 @@ h5 a:hover {
 			}
 			.gametype-head-inner a{
 		    font-family: 'Quantico', sans-serif;
+				font-size: 1.1em;
+			}
+			.gametype-head-inner a::after{
+				content: "&#187";
 			}
 			.mpt1, .mpt2{
 				background-color: rgba(61, 70, 88, 0.3);
