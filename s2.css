@@ -1771,6 +1771,9 @@ h5 a:hover {
 		    align-items: center;
 		    justify-content: space-around;
 			}
+			.gametype-head-inner a{
+		    font-family: 'Quantico', sans-serif;
+			}
 			.mpt1, .mpt2{
 				background-color: rgba(61, 70, 88, 0.3);
 				border: 1px solid #3D4658;
