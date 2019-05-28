@@ -3,7 +3,7 @@
     <div class="twelve columns">
       <div class="row">
         <div class="eight columns">
-          <h1>eSport Betting Odds</h1>
+          <h1>Esport Betting Odds</h1>
           <div class="panel-body"> </div>
         </div>
         <div class="four columns">
@@ -51,9 +51,9 @@
                 var t2img = t2name.trim().split(" ").join("-").toLowerCase();
                 var t1linkout = $(this).find("Outcome[index=1]").find("Quicklink").text() + reflink;
                 var t2linkout = $(this).find("Outcome[index=2]").find("Quicklink").text() + reflink;
-                
+
                 $('.panel-body').append('<div class="partido"><div class="timebar tourname">' + tournament + '<div class="timebox">' + fecha + '</div></div><div onclick="OpenInNewTab(' + "'" + t1linkout + "'" + ');" class="leftbox"><div class="team1"><img onerror=\'this.src="/i/default_sheild.png"\' src="/i/logos/100/' + t1img + '.png" alt="' + t1name + '"/></div><div style="white-space: nowrap;"><div class="h11">' + t1name + '</div><br><div class="h7">' + t1odds + '</div></div></div><div class="centerbox" style="height:8em;"><div class="h11"> x </div><br><div class="h7"></div></div><div onclick="OpenInNewTab(' + "'" + t2linkout + "'" + ');" class="rightbox"><div class="team2"><img onerror=\'this.src="/i/default_sheild.png"\' src="/i/logos/100/' + t2img + '.png" alt="' + t2name + '"/></div><div style="white-space: nowrap;"><div class="h11">' + t2name + '</div><br><div class="h7">' + t2odds + '</div></div></div></div>');
-               
+
               });
             });
           });

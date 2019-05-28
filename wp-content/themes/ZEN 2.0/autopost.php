@@ -3,7 +3,7 @@ $feedUrl = "https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
 
 $httpChannel = curl_init();
 curl_setopt($httpChannel, CURLOPT_URL, $feedUrl);
-curl_setopt($httpChannel, CURLOPT_RETURNTRANSFER, true); 
+curl_setopt($httpChannel, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($httpChannel, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)' );
 curl_setopt($httpChannel, CURLOPT_SSL_VERIFYPEER, false);
 $initialFeed = curl_exec($httpChannel);
@@ -16,7 +16,7 @@ global $post;
 function seoUrl($string) {
 	$char_map = array(
 		"Á" => "A", "É" => "E","Ê" => "E", "Í" => "I", "Ñ" => "N", "Ó" => "O", "Ú" => "U", "Ü" => "U", "á" => "a", "é" => "e", "ê" => "e", "í" => "i", "ñ" => "n", "ó" => "o", "ú" => "u", "ü" => "u", "ª" => "a");
-	$newstring = strtr($string, $char_map);    
+	$newstring = strtr($string, $char_map);
 	$newstring = strtolower($newstring);
 	$newstring = preg_replace("/[^a-z0-9_\s-]/", "", $newstring);
 	$newstring = preg_replace("/[\s-]+/", " ", $newstring);
@@ -35,7 +35,7 @@ function TournamentCreator($title, $name, $tax_input, $meta_input) {
 			'post_status'   => POST_STATUS,
 			'post_type'     => 'page',
 			'post_author'   => POST_AUTH_ID,
-			'post_template' => 'tournament.php', 
+			'post_template' => 'tournament.php',
 			'post_category' => array('category' => 48),
 			'tags_input'	=> $tax_input,
 			'meta_input' 	=> $meta_input,
@@ -46,7 +46,7 @@ function TournamentCreator($title, $name, $tax_input, $meta_input) {
 		if(!isset($post))
 			add_action('admin_init', 'hbt_create_post' );
 		return $error_obj;
-	} 
+	}
 }
 function MatchCreator($title, $name, $tax_input, $meta_input, $meta_update) {
 	$postID = post_exists( $title );
@@ -64,7 +64,7 @@ function MatchCreator($title, $name, $tax_input, $meta_input, $meta_update) {
 			'post_status'   => POST_STATUS,
 			'post_type'     => 'match',
 			'post_author'   => POST_AUTH_ID,
-			'post_template' => 'single-match.php', 
+			'post_template' => 'single-match.php',
 			'post_category' => array('category' => 472),
 			'tags_input'	=> $tax_input,
 			'meta_input' 	=> $meta_input,
@@ -75,7 +75,7 @@ function MatchCreator($title, $name, $tax_input, $meta_input, $meta_update) {
 		if(!isset($post))
 			add_action('admin_init', 'hbt_create_post' );
 		return $error_obj;
-	} 
+	}
 }
 
 
@@ -95,26 +95,26 @@ function zEvent($eve){
 			$Quicklink = $Event['Quicklink'];
 			$eventID = $event['id'];
 			$time = $event['start_at'];
-			$t1nameurl = $event['home_team_cname']; 
-			$t2nameurl = $event['away_team_cname']; 
+			$t1nameurl = $event['home_team_cname'];
+			$t2nameurl = $event['away_team_cname'];
 			$Event['Market'] = isset($Event['Market'][0]) ? $Event['Market'] : array($Event['Market']);
 
 			zMarket($Event['Market']);
 
-			$dateD = explode(" ", $time)[0]; 
+			$dateD = explode(" ", $time)[0];
 			setlocale(LC_ALL,"en_EN");
 			$fechahumana = DateTime::createFromFormat("Y/m/d", $dateD);
-			$fechaH= strftime("%B %d, %Y",$fechahumana->getTimestamp()); 
+			$fechaH= strftime("%B %d, %Y",$fechahumana->getTimestamp());
 
 			$tarray = [rand(0,2), rand(0,4), rand(0,2)];
 
-			MatchCreator( 
+			MatchCreator(
 				$Mtitle = wp_strip_all_tags($t1name." vs ".$t2name." – ".$tournament." - ".explode("/", explode(" ", $time)[0])[1]."-".explode("/", explode(" ", $time)[0])[2]."-".explode("/", explode(" ", $time)[0])[0]),
 				$Mname = seoUrl("bet-".$t1name."-vs-".$t2name."-".$tournament."-".explode("/", explode(" ", $time)[0])[1]."-".explode("/", explode(" ", $time)[0])[2]."-".explode("/", explode(" ", $time)[0])[0]),
-				$Mtax_input = ['tag1' => $tournament, 'tag2' => "Match", 'tag3' => $gametype, 'tag4' => $t1name, 'tag5' => $t2name, 'tag6' => "Odds", "tag7" => "Bet", "tag8" => "eSports"],
+				$Mtax_input = ['tag1' => $tournament, 'tag2' => "Match", 'tag3' => $gametype, 'tag4' => $t1name, 'tag5' => $t2name, 'tag6' => "Odds", "tag7" => "Bet", "tag8" => "Esports"],
 				$Mmeta_input = [
 				'seo_description' => "Bet on ".$t1name." vs ".$t2name." playing in the ".$tournament." live. Get the best odds only in Bet-eSport.com",
-				'seo_keywords' =>  $tournament.", Bet on esports, Match, Tournament, League, Championship, Season",
+				'seo_keywords' =>  $tournament.", Bet on Esports, Match, Tournament, League, Championship, Season",
 				'seo_title' => "Bet on ".$t1name." vs ".$t2name." in the ".$tournament." – Get the best odds",
 				'match_info' => $match_winner_info,
 				'match_winner' => $match_winner,
@@ -125,10 +125,10 @@ function zEvent($eve){
 				$meta_update = [
 				'match_winner' => $match_winner_odds,
 				'correct_score' => $correct_score,
-				]	
+				]
 				);
 
-			TournamentCreator( 
+			TournamentCreator(
 				$title = wp_strip_all_tags($tournament),
 				$name = seoUrl($tournament),
 				$tax_input = ['tag1' => $tournament, 'tag2' => "Tournament", 'tag3' => "League", 'tag4' => "Championship", 'tag5' => "Season", 'tag6' => "Matches", "tag7" => $gametype],
@@ -137,13 +137,13 @@ function zEvent($eve){
 				'islive' => "1",
 				'pagetype' => "tournament",
 				'seo_description' => "Watch the ".$gametype.", ".$tournament." live and bet on the games that are currently happening. Get the best odds only in Bet-eSport.com",
-				'seo_keywords' =>  $tournament.", Bet on esports, Partidos, Tournament, League, Championship, Season",
+				'seo_keywords' =>  $tournament.", Bet on Esports, Partidos, Tournament, League, Championship, Season",
 				'seo_title' => "Bet on the ".$tournament." – Get the best odds",
-				'gametype' => $gametype, 
-				'stream1' => "", 
-				'twitterlink' => "", 
-				'twitterhandle' => "", 
-				'tournamentcode' => seoUrl($tournament), 
+				'gametype' => $gametype,
+				'stream1' => "",
+				'twitterlink' => "",
+				'twitterhandle' => "",
+				'tournamentcode' => seoUrl($tournament),
 				]
 				);
 		}
@@ -167,8 +167,8 @@ function zMarket($shleem){
 				't1url' => $t1nameurl,
 				't2url' => $t2nameurl,
 				'quicklink' => $Quicklink,
-				'gametype' => $gametype, 
-				'tournament' => $tournament, 
+				'gametype' => $gametype,
+				'tournament' => $tournament,
 				'tournamentcode' => seoUrl($tournament),
 				'time' => $time,
 				'eventID' => $eventID,
@@ -181,7 +181,7 @@ function zMarket($shleem){
 			if ( !in_array('oddsboxes_correct_score.php', $betTypes)):
 				$betTypes[] = 'oddsboxes_correct_score.php';
 			Outcome($Market['Outcome']);
-			endif;		
+			endif;
 			$correct_score = serialize (array(
 				'id_20' => $id_20,
 				'id_21' => $id_21,
@@ -192,7 +192,7 @@ function zMarket($shleem){
 				'odds_02' => $odds_02,
 				'odds_12' => $odds_12,
 				));
-		}		
+		}
 	}
 }
 function Outcase($mark){
@@ -205,11 +205,11 @@ function Outcase($mark){
 			$t2id = $out['id'];
 			$t2odds = $out['price_dec'];
 			$t2name = $Outcome['Name'];
-		}			
+		}
 	}
 }
 function Keywords($kword){
-	foreach($kword as $key){								
+	foreach($kword as $key){
 		if(trim($key, "\] \[") == 'eSports'){
 		}elseif (trim($key, "\] \[") == $t1name){
 		}elseif (trim($key, "\] \[") == $t2name){
@@ -218,7 +218,7 @@ function Keywords($kword){
 		}else{
 			$tournament = str_replace(["[","]"],"", $key);
 		}
-	}	
+	}
 }
 function Outcome($key){
 	foreach($key as  $attrO => $out){
@@ -234,7 +234,7 @@ function Outcome($key){
 		}elseif($attrO == '@attributes' && $out['cname'] == "1-2"){
 			$id_12 = $out['id'];
 			$odds_12 = $out['price_dec'];
-		}			
+		}
 	}
 }
 ?>

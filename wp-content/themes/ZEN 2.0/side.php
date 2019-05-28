@@ -42,7 +42,7 @@ a.side_help:hover{
 </style>
 
 <hr>
-<h3>New to eSports betting?</h3>
+<h3>New to Esports betting?</h3>
 <a class="side_help sh1" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
 <a class="side_help" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
 <a class="side_help" href="https://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
@@ -63,8 +63,8 @@ a.side_help:hover{
         <blockquote cite="https://www.facebook.com/betesportcom/"><a href="https://www.facebook.com/betesportcom/">Bet eSport</a></blockquote>
     </div>
 </div>
-<hr> 
-<a href="?s=bfp109554&mid=80278" title="eSports £30 free "><img src="https://www.buffalopartners.com/affiliate_media/4edded864184e4cb.gif?fid=86108&si=1230853&ai=6168670" alt="eSports £30 free " /></a>
+<hr>
+<a href="?s=bfp109554&mid=80278" title="Esports £30 free "><img src="https://www.buffalopartners.com/affiliate_media/4edded864184e4cb.gif?fid=86108&si=1230853&ai=6168670" alt="Esports £30 free " /></a>
 <hr>
 
 

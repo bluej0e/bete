@@ -16,8 +16,8 @@ $initialFeed = curl_exec($httpChannel); ?>
 <div class="row">
 
 	<div class="twelve columns">
-	    
-		<div class="row"> 
+
+		<div class="row">
 
 			<div class="eight columns">
 
@@ -25,19 +25,19 @@ $initialFeed = curl_exec($httpChannel); ?>
 				<div class="loading">Loading&#8230;</div>
 			</div>
 
-                
-				<h1>eSport Betting Odds</h1>
-				
+
+				<h1>Esport Betting Odds</h1>
+
 				<div>
 				<?php echo $initialFeed; ?>
 				</div>
-				
+
     <div class="panel-body">
 
 		<div id="pinnacleDiv" class="ui-widget">
 
-			
-	<div id="calcbox">	
+
+	<div id="calcbox">
 	<div id="calcbtn">ODDS CALCULATOR</div>
 	  <div class="sidecalc" >
                 <div name="calculator">
@@ -56,24 +56,24 @@ $initialFeed = curl_exec($httpChannel); ?>
                 </div>
             </div>
 		</div>
-			
-    
+
+
 		</div>
-         
-               
+
+
      </div>
-			                    
+
 			</div>
 
 			<div class="four columns">
-			          
+
 				<?php include ('side.php'); ?>
-			                        
+
 			</div>
 
-		
+
         </div>
-	</div> 
+	</div>
 
 </div>
 
@@ -81,17 +81,17 @@ $initialFeed = curl_exec($httpChannel); ?>
 
 	var test = <?php echo json_encode($initialFeed); ?>;
 
-	
+
     function betlink_pinnacle(t) {
     document.location = referDeepUrl_pinnacle + "&leagueid=" + t + "&periodnumber=0"
 }
 
-	
+
     var referDeepUrl_pinnacle =  "https://affiliates.pinnaclesports.com/processing/clickthrgh.asp?btag=a_13738b_2&language=British&LExt=bri";
     var pinnacleArray;
-        
+
  /*   function pinOdds() {
-            
+
 				$.ajax({
                 type: "GET",
                 url: url_pinnacle,
@@ -101,7 +101,7 @@ $initialFeed = curl_exec($httpChannel); ?>
             });
         }
 */
-	
+
         function pinnacleXmlToTable(xml) {
             var pinnacleArray = {};
             $('#pinnacleDiv').append("<div id='pinnacle-loadbar' class='buttons'></div><hr><div id='pinnacle-leaguebar' class='buttons'></div><div id='table-holder'></div>");
@@ -177,18 +177,18 @@ $initialFeed = curl_exec($httpChannel); ?>
                 });
             });
         }
-   
+
                 var url_betway = "ing.eu/odds/betwaylines/",
                     url_betathome = "ing.eu/odds/betathomelines/",
                     url_pinnacle = "https://www.bet-esport.com/xmlfeed/",
                     url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
-    
-    
+
+
 	$(document).ready(function(){
-		
+
 			console.log(test);
-		
-		
+
+
 		$(window).on('resize', function(){
 $('#calcbox').width($('#pinnacleDiv').width());
 });
@@ -196,21 +196,21 @@ $('#calcbox').width($('#pinnacleDiv').width());
 		 $('#calcbtn').click(function (){
 	 $('.sidecalc').slideToggle("slow");
  });
-		
+
 //		pinOdds();
-	
+
 $('.calculatethis').change(function(){
 	if($('.sidecalc input[name="ODDS"]').val() && $('.sidecalc input[name="STAKE"]').val()){
-	calculate();		
+	calculate();
 	}
 });
 
-	
+
 	});
-    
-    
-    
-    
+
+
+
+
     function calculate() {
 		var ODDS =  $('.sidecalc input[name="ODDS"]').val();
 		var STAKE =  $('.sidecalc input[name="STAKE"]').val();
@@ -219,7 +219,7 @@ $('.calculatethis').change(function(){
  		$('.sidecalc input[name="TOTAL"]').val(CALC1.toString().substring(0,4));
 		$('.sidecalc input[name="WIN"]').val(CALC2.toString().substring(0,4));
 
-        
+
 }
 
 </script>

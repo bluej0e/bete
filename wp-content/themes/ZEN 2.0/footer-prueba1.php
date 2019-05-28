@@ -43,7 +43,7 @@ a.side_help:hover{
 		</div>
 	</div> -->
 	<div class="twelve columns">
-		<h3>New to eSports betting?</h3>
+		<h3>New to Esports betting?</h3>
 		<br>
 		<a class="tournaments" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
 		<a class="tournaments" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
@@ -62,14 +62,14 @@ a.side_help:hover{
 <div style="width:100%;clear:both;"></div>
 	<div class="footer">
 		<div class="twelve columns" >
-			<center>    			
+			<center>
 				<a rel="noopener" href="https://www.facebook.com/betesportcom/" target="_blank">
 					<i class="fa fa-facebook-official fa-3x">
 					</i>
 				</a>
 				<a rel="noopener" href="https://twitter.com/BetEsportCom" target="_blank">
 					<i class="fa fa-twitter fa-3x">
-					</i> 
+					</i>
 				</a>
 				<a rel="noopener" href="https://www.youtube.com/channel/UC_7AsMpmxsT1veTjqLO5RTg" target="_blank">
 					<i class="fa fa-youtube-play fa-3x">
@@ -77,11 +77,11 @@ a.side_help:hover{
 				</a>
 				<a rel="noopener" href="https://plus.google.com/+Betesports" target="_blank">
 					<i class="fa fa-google-plus fa-3x">
-					</i> 
+					</i>
 				</a>
 				<a rel="noopener" href="https://feeds.feedburner.com/###o/" target="_blank">
 					<i class="fa fa-rss-square fa-3x">
-					</i> 
+					</i>
 				</a>
 			</center>
 
@@ -95,7 +95,7 @@ a.side_help:hover{
 	<div style="height: 30px;"></div>
 </div>
 
-</body> 
+</body>
 <script>
   $(document).ready(function() {
     $(".clickable-row").click(function() {
@@ -105,18 +105,18 @@ a.side_help:hover{
 var other_games = [ "dota-2", "cs-go", "league-of-legends", "heroes-of-the-storm", "starcraft-2", "starcraft", "warcraft-iii", "hearthstone", "overwatch", "call-of-duty", "black-ops", "warcraft", "world-of-tanks", "world-of-warcraft", "rocket-league", "pubg"];
 
     $('.showsinglegame').click(function(){
-      if($(this).val() == 'all'){ 
+      if($(this).val() == 'all'){
         $('.torneogroup').show();
       }else if (other_games.indexOf($(this).val()) != -1 ) {
         $('.torneogroup').show();
         $('.torneogroup:not(.'+$(this).val()+')').hide();
-      } else { 
+      } else {
         $('.torneogroup').show();
         for(var i = 0; i < other_games.length; i++){
           $('.'+ other_games[i] ).hide();
         }
       }
-    } 
+    }
     );
 
     if($('.torneogroup').is(':hidden')){
@@ -129,7 +129,7 @@ var other_games = [ "dota-2", "cs-go", "league-of-legends", "heroes-of-the-storm
       $("#hiddenmenu").toggle();
     })
 
-  }); 
+  });
 </script>
 <script>
 	(function () {
