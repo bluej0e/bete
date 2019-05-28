@@ -1775,8 +1775,25 @@ h5 a:hover {
 		    font-family: 'Quantico', sans-serif;
 				font-size: 1.1em;
 			}
-			.gametype-head-inner a::after{
+			/* .gametype-head-inner a::after{
 				content: "&#187";
+			} */
+			.gametype-head-inner a::before {
+				border-style: solid;
+				border-width: 0.25em 0.25em 0 0;
+				content: '';
+				display: inline-block;
+				height: 0.45em;
+				left: 0.15em;
+				position: relative;
+				top: 0.15em;
+				transform: rotate(-45deg);
+				vertical-align: top;
+				width: 0.45em;
+			}
+			.gametype-head-inner a:before {
+				left: 0;
+				transform: rotate(45deg);
 			}
 			.mpt1, .mpt2{
 				background-color: rgba(61, 70, 88, 0.3);
