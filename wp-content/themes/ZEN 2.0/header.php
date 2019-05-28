@@ -9,12 +9,14 @@
         <meta name="revisit-after" content="3 days" />
         <meta name="googlebot" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/s.css">
-
-
-
-<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/s.css">
+        <link rel="stylesheet" type="text/css" href="/font-awesome.css">
+        <link rel="icon" href="/i/favicon.png" type="image/png" />
+        <link rel="stylesheet" type="text/css" href="/s2.css">
+        <link rel="stylesheet" type="text/css" href="/s2m.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
         <?php wp_head();?>
     </head>
@@ -48,4 +50,3 @@
 '); ?>
         </div>
         <?php include('menubar.php'); ?>
-
