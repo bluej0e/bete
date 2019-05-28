@@ -236,7 +236,7 @@ function GameFetcherHome($gametype){
 function TournamentSepHome($tor_array){
   foreach ($tor_array as $key=>$tor){
     echo '<div class="torneogroup '. seoUrl($tor[0]['gametype']) .'"  id="'. seoUrl($key) .'" value="'. $tor[0]['gametype'] .'">';
-    echo '<div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><div></div><div><h2 style="width:70%; margin: 0 auto;">'. $key .'</h2></div><div><a href="/'.seoUrl($tor[0]['gametype']).'-matches" >See all</a></div></div></div>';
+    echo '<div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><div></div><div><h2>'. $key .'</h2></div><div><a href="/'.seoUrl($tor[0]['gametype']).'-matches" >See all</a></div></div></div>';
     MatchBoxes($tor);
     echo '<br><div class="showmore"></div><br></div>';
   }
