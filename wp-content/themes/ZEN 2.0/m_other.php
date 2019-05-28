@@ -108,8 +108,8 @@ $gamepage = 'Other Games' ?>
             var len = (String(base || 10).length - String(this).length) + 1;
             return len > 0 ? new Array(len).join(chr || '0') + this : this;
           }
-          var xmlURL = "http://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
-          var xmlURL2 = "https://cors-anywhere.herokuapp.com/http://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
+          var xmlURL = "https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
+          var xmlURL2 = "https://cors-anywhere.herokuapp.com/https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
           var reflink = "/?s=bfp109554";
           $(document).ready(function () {
             $.ajax({

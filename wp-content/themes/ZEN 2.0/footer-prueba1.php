@@ -45,10 +45,10 @@ a.side_help:hover{
 	<div class="twelve columns">
 		<h3>New to eSports betting?</h3>
 		<br>
-		<a class="tournaments" href="http://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
-		<a class="tournaments" href="http://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
-		<a class="tournaments" href="http://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
-		<a class="tournaments" href="http://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
+		<a class="tournaments" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
+		<a class="tournaments" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
+		<a class="tournaments" href="https://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
+		<a class="tournaments" href="https://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
 		<br>
 	</div>
 <!-- 	<div class="four columns">
@@ -79,7 +79,7 @@ a.side_help:hover{
 					<i class="fa fa-google-plus fa-3x">
 					</i> 
 				</a>
-				<a rel="noopener" href="http://feeds.feedburner.com/###o/" target="_blank">
+				<a rel="noopener" href="https://feeds.feedburner.com/###o/" target="_blank">
 					<i class="fa fa-rss-square fa-3x">
 					</i> 
 				</a>
@@ -89,7 +89,7 @@ a.side_help:hover{
 	</div>
 	<div>
 		<center>
-			<p>&nbsp;<br> Copyright © 2017 bet-esport.com</p> <a href="http://www.bet-esport.com/map/">Sitemap</a> | <a href="http://www.bet-esport.com/contact/">Contact</a> </p>
+			<p>&nbsp;<br> Copyright © 2017 bet-esport.com</p> <a href="https://www.bet-esport.com/map/">Sitemap</a> | <a href="https://www.bet-esport.com/contact/">Contact</a> </p>
 		</center>
 	</div>
 	<div style="height: 30px;"></div>

@@ -87,7 +87,7 @@ $initialFeed = curl_exec($httpChannel); ?>
 }
 
 	
-    var referDeepUrl_pinnacle =  "http://affiliates.pinnaclesports.com/processing/clickthrgh.asp?btag=a_13738b_2&language=British&LExt=bri";
+    var referDeepUrl_pinnacle =  "https://affiliates.pinnaclesports.com/processing/clickthrgh.asp?btag=a_13738b_2&language=British&LExt=bri";
     var pinnacleArray;
         
  /*   function pinOdds() {
@@ -180,8 +180,8 @@ $initialFeed = curl_exec($httpChannel); ?>
    
                 var url_betway = "ing.eu/odds/betwaylines/",
                     url_betathome = "ing.eu/odds/betathomelines/",
-                    url_pinnacle = "http://www.bet-esport.com/xmlfeed/",
-                    url_pinnacle2 = "http://www.bet-esport.com/xmlleague/";
+                    url_pinnacle = "https://www.bet-esport.com/xmlfeed/",
+                    url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
     
     
 	$(document).ready(function(){

@@ -19,7 +19,7 @@
 ?>
 		
 	
-<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <div class="row">
 	<div class="twelve columns">
@@ -80,7 +80,7 @@
 		$('.sidecalc input[name="WIN"]').val(CALC2.toString().substring(0,5));
 	}
 	//Create pinnacle link
-	var referDeepUrl_pinnacle =  "http://affiliates.pinnaclesports.com/processing/clickthrgh.asp?btag=a_13738b_2&language=British&LExt=bri";
+	var referDeepUrl_pinnacle =  "https://affiliates.pinnaclesports.com/processing/clickthrgh.asp?btag=a_13738b_2&language=British&LExt=bri";
 	function betlink_pinnacle(t) {
 		document.location = referDeepUrl_pinnacle + "&leagueid=" + t + "&periodnumber=0"
 	}
@@ -131,7 +131,7 @@
 			var currentTableBody = $(document.createElement("tbody")).attr("class","oddstable");
 			currentTable.append(currentTableBody);
 			var htmln = "";
-			var skipMe = ['actually live before wagering.', 'Please make sure that your feed is', 'Live networth graph can be found on', 'http://www.dota2.com/watch', 'Due to coming from upper bracket', 'Orgless has 1-0 map advantage', '"Most ESL One Manila matches will'];
+			var skipMe = ['actually live before wagering.', 'Please make sure that your feed is', 'Live networth graph can be found on', 'https://www.dota2.com/watch', 'Due to coming from upper bracket', 'Orgless has 1-0 map advantage', '"Most ESL One Manila matches will'];
 			$(this).find("event").each(function() {
 				if (skipMe.indexOf($(this).find("homeTeam").find("name").text().split(/\(([^)]+)\)/)[0]) == -1) {
 					var tempteam = ""; 
@@ -190,8 +190,8 @@
 			$('.loading').hide();
 		});
 	}
-	var url_pinnacle = "http://www.bet-esport.com/xmlfeed/";
-	var url_pinnacle2 = "http://www.bet-esport.com/xmlleague/";
+	var url_pinnacle = "https://www.bet-esport.com/xmlfeed/";
+	var url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
 
 	//When document loads
 	$(document).ready(function(){

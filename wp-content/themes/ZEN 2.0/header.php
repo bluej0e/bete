@@ -9,7 +9,7 @@
         <meta name="revisit-after" content="3 days" />
         <meta name="googlebot" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/s.css">
 
 

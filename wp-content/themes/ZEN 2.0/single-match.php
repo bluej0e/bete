@@ -70,7 +70,7 @@ $gametime = strtotime($time) - mktime();
 }
 
 </style>
-<script type="application/ld+json">{"@context":"http://schema.org/","@type":"Game","name":"<?php echo $t1name.' vs ' .$t2name; ?>","image":"http://www.bet-esport.com/i/matchdefault.jpg","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.<?php  echo substr($t1ID, -1); ?>","ratingCount":"<?php $rand = rand(200,2000); echo $rand; ?>"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org/","@type":"Game","name":"<?php echo $t1name.' vs ' .$t2name; ?>","image":"https://www.bet-esport.com/i/matchdefault.jpg","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.<?php  echo substr($t1ID, -1); ?>","ratingCount":"<?php $rand = rand(200,2000); echo $rand; ?>"}}</script>
 <div class="row">
 	<?php include('match_head.php'); ?>
 

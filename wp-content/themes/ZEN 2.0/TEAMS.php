@@ -23,10 +23,10 @@
 
 
 			<div class="buttons">
-				<button  class="showall btn btn-8 btn-8b"><img alt="Show All" src="http://www.bet-esport.com/i/showall.png"></button>
-				<button  class="showSingle btn btn-8 btn-8b" target="1"><img alt="League of Legends" src="http://www.bet-esport.com/i/lol_300.png"></button>
-				<button  class="showSingle btn btn-8 btn-8b" target="2"><img alt="Dota" src="http://www.bet-esport.com/i/dota_300.png"></button>
-				<button  class="showSingle btn btn-8 btn-8b" target="3"><img alt="CS:GO" src="http://www.bet-esport.com/i/csgo_300.png"></button>
+				<button  class="showall btn btn-8 btn-8b"><img alt="Show All" src="https://www.bet-esport.com/i/showall.png"></button>
+				<button  class="showSingle btn btn-8 btn-8b" target="1"><img alt="League of Legends" src="https://www.bet-esport.com/i/lol_300.png"></button>
+				<button  class="showSingle btn btn-8 btn-8b" target="2"><img alt="Dota" src="https://www.bet-esport.com/i/dota_300.png"></button>
+				<button  class="showSingle btn btn-8 btn-8b" target="3"><img alt="CS:GO" src="https://www.bet-esport.com/i/csgo_300.png"></button>
 				<!--a  class="showSingle" target="4">Div 4</a-->
 			</div>
 

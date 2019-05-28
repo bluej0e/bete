@@ -7,7 +7,7 @@
 
 			<div class="eight columns">
 
-				<h1><img src="http://www.bet-esport.com/i/<?php echo single_cat_title(); ?>-cat.png"  <?php single_cat_title(''); ?> </h1>
+				<h1><img src="https://www.bet-esport.com/i/<?php echo single_cat_title(); ?>-cat.png"  <?php single_cat_title(''); ?> </h1>
 				<p><?php echo category_description(); ?></p>
 				<hr />
 

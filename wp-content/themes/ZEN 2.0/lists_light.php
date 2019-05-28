@@ -5,15 +5,15 @@
       <div class="eight columns">
         <br>
         <div class="buttons">
-          <button class="showsinglegame btn btn-8 btn-8b" value="all" ><img alt="Show All" src="http://www.bet-esport.com/i/showall_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="league-of-legends" target="1"><img alt="League of Legends" src="http://www.bet-esport.com/i/lol_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="dota-2" target="2"><img alt="Dota 2" src="http://www.bet-esport.com/i/dota_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="cs-go" target="3"><img alt="CS GO" src="http://www.bet-esport.com/i/csgo_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="all" ><img alt="Show All" src="https://www.bet-esport.com/i/showall_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="league-of-legends" target="1"><img alt="League of Legends" src="https://www.bet-esport.com/i/lol_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="dota-2" target="2"><img alt="Dota 2" src="https://www.bet-esport.com/i/dota_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="cs-go" target="3"><img alt="CS GO" src="https://www.bet-esport.com/i/csgo_300.png"></button>
           <div style="margin:-20px"></div>
-          <button class="showsinglegame btn btn-8 btn-8b" value="hearthstone" target="4"><img alt="HS" src="http://www.bet-esport.com/i/hearthstone_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="heroes-of-the-storm" target="5"><img alt="HotS" src="http://www.bet-esport.com/i/hots_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="starcraft" target="6"><img alt="SC" src="http://www.bet-esport.com/i/sc_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="others" target="7"><img alt="Other games" src="http://www.bet-esport.com/i/others_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="hearthstone" target="4"><img alt="HS" src="https://www.bet-esport.com/i/hearthstone_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="heroes-of-the-storm" target="5"><img alt="HotS" src="https://www.bet-esport.com/i/hots_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="starcraft" target="6"><img alt="SC" src="https://www.bet-esport.com/i/sc_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="others" target="7"><img alt="Other games" src="https://www.bet-esport.com/i/others_300.png"></button>
         </div>                
         <br>
         <style>.torneogroup{display:hidden}</style>

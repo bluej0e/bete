@@ -10,7 +10,7 @@
         <meta name="googlebot" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- <script type="text/javascript"  src="/js/moment-with-locales.min.js"></script> -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script> dataLayer = []; </script>
         <!-- <script src="//my.hellobar.com/bea66eed0652618cc7b8aa9d4847fd4dcc5990fb.js" type="text/javascript" charset="utf-8" async="async"></script> -->
         <!-- Google Tag Manager -->

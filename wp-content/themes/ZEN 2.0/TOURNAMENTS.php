@@ -19,10 +19,10 @@
 			}
 		}
 	</style>
-	<button  class="showall gamebutton"><img alt="Show All" src="http://www.bet-esport.com/i/showall_300.png"></button>
-	<button  class="showSingle gamebutton" target="3"><img alt="League of Legends" src="http://www.bet-esport.com/i/lol_300.png"></button>
-	<button  class="showSingle gamebutton" target="1"><img alt="Dota" src="http://www.bet-esport.com/i/dota_300.png"></button>
-	<button  class="showSingle gamebutton" target="2"><img alt="CS:GO" src="http://www.bet-esport.com/i/csgo_300.png"></button>
+	<button  class="showall gamebutton"><img alt="Show All" src="https://www.bet-esport.com/i/showall_300.png"></button>
+	<button  class="showSingle gamebutton" target="3"><img alt="League of Legends" src="https://www.bet-esport.com/i/lol_300.png"></button>
+	<button  class="showSingle gamebutton" target="1"><img alt="Dota" src="https://www.bet-esport.com/i/dota_300.png"></button>
+	<button  class="showSingle gamebutton" target="2"><img alt="CS:GO" src="https://www.bet-esport.com/i/csgo_300.png"></button>
 	<!--a  class="showSingle" target="4">Div 4</a-->
 </div>
 <br>
