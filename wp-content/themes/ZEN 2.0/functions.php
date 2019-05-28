@@ -77,11 +77,8 @@ function GameFetcher($gametype){
         't2winna' => round((1/$t2odds)*100)-4,
         'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
       );
-
     endwhile; endif;
-
     TournamentSep($torneo_array);
-
     wp_reset_query();
   }
 }
