@@ -2,7 +2,7 @@
 <div class="row">
   <div class="twelve columns">
      <br>
-   <h1>Welcome to Bet eSport!</h1>
+   <h1 style="text-align:center;">Welcome to Bet eSport!</h1>
 
     <hr>
 
