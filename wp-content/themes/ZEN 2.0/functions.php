@@ -466,11 +466,6 @@ function ButtonMaker($torneo_arrayB){
 
 
 
-
-
-
-
-
 // SACAR EMOJI
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
@@ -511,7 +506,6 @@ function jeherve_remove_all_jp_css() {
 add_action('wp_print_styles', 'jeherve_remove_all_jp_css' );
 
 
-
 // SE AGREGA ESTO PARA HABILITAR THUMBNAILS EN EL THEME
 add_theme_support( 'post-thumbnails' );
 // add_image_size( 'large', 300, 300 );
@@ -527,7 +521,6 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 
-
 // SE AGREGA ESTO PARA ACHICAR EL EXCREPT
 // function new_excerpt_length($length) {
 //   return 30;
@@ -541,7 +534,6 @@ function new_excerpt_more($more) {
 add_filter('excerpt_more', 'new_excerpt_more');
 
 
-
 // SE AGREGA ESTO PARA VER SI PODEMOS PONER LOS POST TAGS COMO META KEYWORD
 
 function csv_tags() {
@@ -553,7 +545,6 @@ function csv_tags() {
    echo "$csv_tags";
 
 }
-
 
 
 // SE CLONA FUNCION ANTERIOR PARA TRATAR EL TITULO
@@ -571,7 +562,6 @@ function csv_title() {
 }
 
 
-
 // SE CLONA FUNCION ANTERIOR PARA AGREGAR LA DESCRIPCION
 
 function csv_description() {
@@ -587,11 +577,9 @@ function csv_description() {
 }
 
 
-
 // SE AGREGA ESTO PARA QUE LA DESCRIPCION DE CATEGORIA NO MUESTRE P
 
 remove_filter('term_description','wpautop');
-
 
 
 // SACA BASURA DEL HEADER
@@ -605,7 +593,6 @@ remove_action('wp_head', 'start_post_rel_link', 10, 0 );
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0 );
 show_admin_bar( false );
-
 
 
 
@@ -628,8 +615,6 @@ show_admin_bar( false );
 // add_filter( "single_template", "get_custom_cat_template" ) ;
 
 
-
-
 // Add a Custom Post Type to a feed
 function add_cpt_to_feed( $qv ) {
   if ( isset($qv['feed']) && !isset($qv['post_type']) )
@@ -646,9 +631,6 @@ function my_taxonomies() {
   register_taxonomy_for_object_type('post_tag', 'page');
 }
 add_action('init', 'my_taxonomies');
-
-
-
 
 
 // CUSTOM POST MATCH
@@ -682,8 +664,6 @@ function my_custom_post_match() {
   register_post_type( 'match', $args );
 }
 add_action( 'init', 'my_custom_post_match' );
-
-
 
 
 add_filter( 'template_include', 'include_match_template', 1 );
@@ -733,8 +713,6 @@ function my_custom_post_tournament() {
 add_action( 'init', 'my_custom_post_tournament' );
 
 
-
-
 add_filter( 'template_include', 'include_tournament_template', 1 );
 function include_tournament_template( $template_path ){
   if ( get_post_type() == 'tournament' ) {
@@ -748,9 +726,6 @@ function include_tournament_template( $template_path ){
   }
   return $template_path;
 }
-
-
-
 
 
 /**
