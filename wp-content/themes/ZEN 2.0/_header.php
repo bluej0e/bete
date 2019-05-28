@@ -10,7 +10,7 @@
         <meta name="googlebot" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="/s.css">
+        <!-- <link rel="stylesheet" type="text/css" href="/s.css"> -->
         <link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
         <link rel="icon" href="/i/favicon.ico" />
         <link rel="stylesheet" type="text/css" href="/s2.css">
