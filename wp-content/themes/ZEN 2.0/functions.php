@@ -7,7 +7,7 @@ function gta() {
 /*makes string URL friendly*/
 function seoUrl($string) {
   $char_map = array("Á" => "A", "É" => "E","Ê" => "E", "Í" => "I", "Ñ" => "N", "Ó" => "O", "Ú" => "U", "Ü" => "U", "á" => "a", "é" => "e", "ê" => "e", "í" => "i", "ñ" => "n", "ó" => "o", "ú" => "u", "ü" => "u", "ª" => "a");
-  $newstring = strtr($string, $char_map);    
+  $newstring = strtr($string, $char_map);
   $newstring = strtolower($newstring);
   $newstring = preg_replace("/[^a-z0-9_\s-]/", "", $newstring);
   $newstring = preg_replace("/[\s-]+/", " ", $newstring);
@@ -38,12 +38,12 @@ function GameFetcher($gametype){
           'value'     => $type,
           'compare'   => '='
         ),
-      ),  
+      ),
     )
-  );  
+  );
     $torneo_array = array();
 
-    if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+    if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
       $torneo = get_post_meta(get_the_ID(), 'tournament', true);
 
       $match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -59,7 +59,7 @@ function GameFetcher($gametype){
 
       setlocale(LC_ALL,"en_EN");
       $fechahumana = DateTime::createFromFormat("Y/m/d", explode(" ", get_post_custom_values('time')[0])[0]);
-      $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp()); 
+      $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp());
 
 
       $torneo_array[$torneo][] = array(
@@ -78,7 +78,7 @@ function GameFetcher($gametype){
         'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
       );
 
-    endwhile; endif; 
+    endwhile; endif;
 
     TournamentSep($torneo_array);
 
@@ -108,7 +108,7 @@ function MatchBoxes($thor){
 function GameFetcherHome($gametype){
   $d = mktime();
   foreach ($gametype as $type) {
-    if($type != 'Other'){ 
+    if($type != 'Other'){
       $games = new WP_Query( array(
         'post_type'     => 'match',
         'orderby'       => 'meta_value',
@@ -126,12 +126,12 @@ function GameFetcherHome($gametype){
             'value'     => $type,
             'compare'   => '='
           ),
-        ),  
+        ),
       )
-    );  
+    );
       $torneo_array = array();
 
-      if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+      if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
         $gtype = get_post_meta(get_the_ID(), 'gametype', true);
 
         $match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -147,7 +147,7 @@ function GameFetcherHome($gametype){
 
         setlocale(LC_ALL,"en_EN");
         $fechahumana = DateTime::createFromFormat("Y/m/d", explode(" ", get_post_custom_values('time')[0])[0]);
-        $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp()); 
+        $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp());
 
         $torneo_array[$gtype][] = array(
           'title' =>  $title_array[0],
@@ -164,7 +164,7 @@ function GameFetcherHome($gametype){
           't2winna' => round((1/$t2odds)*100)-4,
           'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
         );
-      endwhile; endif; 
+      endwhile; endif;
       TournamentSepHome($torneo_array);
       wp_reset_query();
     }else{
@@ -185,12 +185,12 @@ function GameFetcherHome($gametype){
             'value'     => gta(),
             'compare'   => 'NOT IN'
           ),
-        ),  
+        ),
       )
-    );  
+    );
       $torneo_array2 = array();
 
-      if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+      if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
         $gtype = get_post_meta(get_the_ID(), 'gametype', true);
 
         $match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -206,7 +206,7 @@ function GameFetcherHome($gametype){
 
         setlocale(LC_ALL,"en_EN");
         $fechahumana = DateTime::createFromFormat("Y/m/d", explode(" ", get_post_custom_values('time')[0])[0]);
-        $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp()); 
+        $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp());
 
         $torneo_array2[$gtype][] = array(
           'title' =>  $title_array[0],
@@ -223,10 +223,10 @@ function GameFetcherHome($gametype){
           't2winna' => round((1/$t2odds)*100)-4,
           'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
         );
-      endwhile; endif; 
+      endwhile; endif;
       foreach ($torneo_array2 as $key=>$tor){
         echo '<div class="torneogroup other"  id="other" value="other">';
-        echo '<a href="/'.seoUrl($tor[0]['gametype']).'-matches" ><div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><h2 style="width:70%; margin: 0 auto;">'. $key .'</h2></div></div></a>';
+        echo '<div style="background: url(/i/'. seoUrl($tor[0]['gametype']).'-header.jpg) no-repeat center center" class="gametype-head"><div class="gametype-head-inner"><h2 style="width:70%; margin: 0 auto;">'. $key .'</h2><a href="/'.seoUrl($tor[0]['gametype']).'-matches"> >> </a></div></div>';
         MatchBoxes($tor);
         echo '<br><br></div>';
       }
@@ -275,11 +275,11 @@ function GameFetcherType($gametype){
         'value'     => $gametype,
         'compare'   => '='
       ),
-    ),  
-  ));  
+    ),
+  ));
   $torneo_array = array();
 
-  if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+  if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
     $torneo = get_post_meta(get_the_ID(), 'tournament', true);
 
     $match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -295,7 +295,7 @@ function GameFetcherType($gametype){
 
     setlocale(LC_ALL,"en_EN");
     $fechahumana = DateTime::createFromFormat("Y/m/d", explode(" ", get_post_custom_values('time')[0])[0]);
-    $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp()); 
+    $fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp());
 
 
     $torneo_array[$torneo][] = array(
@@ -314,15 +314,15 @@ function GameFetcherType($gametype){
       'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
     );
 
-  endwhile; endif; 
+  endwhile; endif;
   TournamentSep($torneo_array);
   wp_reset_query();
 }
 
 /* SEARCHES ALL tournaments */
 function GameFetcherT($gametype){
-  $i = 0;        
-  $d = mktime(); 
+  $i = 0;
+  $d = mktime();
   $gta2 = array('Dota 2', 'CS GO', 'League of Legends');
   if($gametype != 'Other'){
     $games = new WP_Query( array(
@@ -341,12 +341,12 @@ function GameFetcherT($gametype){
           'value'     => $gametype,
           'compare'   => '='
         ),
-      ),  
+      ),
     )
-  );  
+  );
     $torneo_array = array();
 
-    if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+    if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
       $torneo = get_post_meta(get_the_ID(), 'tournament', true);
 
       $match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -359,7 +359,7 @@ function GameFetcherT($gametype){
         'gametype' => $gametype,
       );
 
-    endwhile; endif; 
+    endwhile; endif;
 
     TournamentSepT($torneo_array);
 
@@ -377,12 +377,12 @@ function GameFetcherT($gametype){
         'value'     => $d,
         'compare'   => '>='
       ),
-    ),  
+    ),
   )
- );  
+ );
    $torneo_array2 = array();
 
-   if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post(); 
+   if ( $games->have_posts() ) : while ( $games->have_posts() ) : $games->the_post();
     $torneo = get_post_meta(get_the_ID(), 'tournament', true);
     $gtype2 = get_post_meta(get_the_ID(), 'gametype', true);
 
@@ -394,7 +394,7 @@ function GameFetcherT($gametype){
       'gametype'  => $gametype,
     );
    }
- endwhile; endif; 
+ endwhile; endif;
 
  TournamentSepT($torneo_array2);
 
@@ -417,7 +417,7 @@ function RemoveGameType($gamename){
 /* Generates the gametype buttons */
 function ButtonGeneratorHome($gameType){
   $d = mktime();
-  $games = new WP_Query( 
+  $games = new WP_Query(
     array(
       'post_type'     => 'match',
       'orderby'       => 'meta_value',
@@ -429,20 +429,20 @@ function ButtonGeneratorHome($gameType){
           'value'     => $d,
           'compare'   => '>='
         ),
-      ),  
+      ),
     )
-  ); 
+  );
   $torneo_array = array();
 
   if ( $games->have_posts() ) :
-    while ( $games->have_posts() ) : $games->the_post(); 
+    while ( $games->have_posts() ) : $games->the_post();
       $gtype = get_post_meta(get_the_ID(), 'gametype', true);
 
       $torneo_array[$gtype][] = array(
         'gametype' => $gtype,
       );
     endwhile;
-  endif; 
+  endif;
 
   ButtonMaker($torneo_array);
   wp_reset_query();
@@ -578,7 +578,7 @@ function csv_description() {
   $postdescription = get_post_custom_values("seo_description");
 
   if (is_home()) { ?>Your all-in-one eSports betting hub. Get info on upcoming matches, tournaments, highlights and more. Get the best odds and tips on how to win through eSports betting.<?php };
-  if (is_category()) 	{ echo category_description() ; } ;	
+  if (is_category()) 	{ echo category_description() ; } ;
   if (is_tag()) 	{ echo category_description() ; } ;
   if (is_singular()) { $descr = get_post_custom_values("seo_description"); echo $descr[0]; } ;
 
@@ -621,7 +621,7 @@ show_admin_bar( false );
 
 //   else if ( in_category( 'tournament' )) {
 //     $single_template = dirname( __FILE__ ) . '/tournament.php';
-//   } 
+//   }
 
 //   return $single_template;
 // }
@@ -665,7 +665,7 @@ function my_custom_post_match() {
     'view_item'          => __( 'View Match' ),
     'search_items'       => __( 'Search Matches' ),
     'not_found'          => __( 'No matches found' ),
-    'not_found_in_trash' => __( 'No matches found in the Trash' ), 
+    'not_found_in_trash' => __( 'No matches found in the Trash' ),
     'parent_item_colon'  => '',
     'menu_name'          => 'Matches',
     'rewrite' => 'false',
@@ -679,7 +679,7 @@ function my_custom_post_match() {
     'has_archive'   => true,
     'taxonomies' 	=> array('post_tag', 'category',)
   );
-  register_post_type( 'match', $args ); 
+  register_post_type( 'match', $args );
 }
 add_action( 'init', 'my_custom_post_match' );
 
@@ -714,7 +714,7 @@ function my_custom_post_tournament() {
     'view_item'          => __( 'View Tournament' ),
     'search_items'       => __( 'Search Tournaments' ),
     'not_found'          => __( 'No Tournaments found' ),
-    'not_found_in_trash' => __( 'No Tournaments found in the Trash' ), 
+    'not_found_in_trash' => __( 'No Tournaments found in the Trash' ),
     'parent_item_colon'  => '',
     'menu_name'          => 'Tournaments',
     'rewrite' => 'false',
@@ -728,7 +728,7 @@ function my_custom_post_tournament() {
     'has_archive'   => true,
     'taxonomies'  => array('post_tag', 'category',)
   );
-  register_post_type( 'tournament', $args ); 
+  register_post_type( 'tournament', $args );
 }
 add_action( 'init', 'my_custom_post_tournament' );
 
@@ -804,11 +804,11 @@ function remove_old_tournaments() {
   global $wpdb;
   $wpdb->query($wpdb->prepare("DELETE FROM wp_posts WHERE post_type='tpurnament' AND post_date < DATE_SUB(NOW(), INTERVAL 7 DAY);"));
 }
-     
+
 
 add_action('init', 'my_custom_init');
 function my_custom_init() {
     add_post_type_support( 'match', 'publicize' );
-}     
+}
 
 ?>
