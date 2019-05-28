@@ -1758,12 +1758,12 @@ h5 a:hover {
 				height: 100px;
 				text-align: center;
 				display: flex;
-				align-content: center;
+				justify-content: center;
 				align-content: center;
 				flex-direction: column;
 			}
 			.gametype-head-inner{
-				
+
 			}
 			.mpt1, .mpt2{
 				background-color: rgba(61, 70, 88, 0.3);
