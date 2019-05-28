@@ -1,5 +1,5 @@
 <?php /* Template Name: AUTOPOST TORNEOS  */
-$feedUrl = "http://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
+$feedUrl = "https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
 
 $httpChannel = curl_init();
 curl_setopt($httpChannel, CURLOPT_URL, $feedUrl);

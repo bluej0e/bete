@@ -228,10 +228,10 @@
 	<div class="twelve columns">
 		<div class="oddsbox">
 
-			<a class="az" style="float:left;" href="<?php echo "http://sports.betway.com/esports/". seoUrl($gametype)."/".$tournamentcode."/". seoUrl($t1name)."-". seoUrl($t2name)."/match-winner/1".$affme; ?>" target="blank_">
+			<a class="az" style="float:left;" href="<?php echo "https://sports.betway.com/esports/". seoUrl($gametype)."/".$tournamentcode."/". seoUrl($t1name)."-". seoUrl($t2name)."/match-winner/1".$affme; ?>" target="blank_">
 				<div class="txodds"><div class="team_name"><?php echo $t1name; ?></div><br>Odds: <?php echo $t1odds; ?><br>Chance to Win <?php echo round((1/$t1odds)*100)-4; ?>%</div>
 			</a>
-			<a class="za" style="float:right;" href="<?php echo "http://sports.betway.com/esports/". seoUrl($gametype)."/".$tournamentcode."/". seoUrl($t1name)."-". seoUrl($t2name)."/match-winner/2".$affme; ?>" target="blank_">
+			<a class="za" style="float:right;" href="<?php echo "https://sports.betway.com/esports/". seoUrl($gametype)."/".$tournamentcode."/". seoUrl($t1name)."-". seoUrl($t2name)."/match-winner/2".$affme; ?>" target="blank_">
 				<div class="txodds"><div class="team_name"><?php echo $t2name; ?></div><br>Odds: <?php echo $t2odds; ?><br>Chance to Win <?php echo round((1/$t2odds)*100)-4; ?>%</div>
 			</a>
 		</div>

@@ -10,7 +10,7 @@
                 <i class="fa fa-youtube-play fa-3x"></i> </a>
             <a href="https://plus.google.com/+Betesports" target="_blank">
                 <i class="fa fa-google-plus fa-3x"></i> </a>
-            <a href="http://feeds.feedburner.com/###o/" target="_blank">
+            <a href="https://feeds.feedburner.com/###o/" target="_blank">
                 <i class="fa fa-rss-square fa-3x"></i> </a>
         </center>
 
@@ -22,8 +22,8 @@
 		<center>
 			<p>&nbsp;
 				<br> Copyright © 2017 bet-esport.com</p>
-			<a href="http://www.bet-esport.com/map/">Sitemap</a> | 
-			<a href="http://www.bet-esport.com/contact/">Contact</a></p>
+			<a href="https://www.bet-esport.com/map/">Sitemap</a> | 
+			<a href="https://www.bet-esport.com/contact/">Contact</a></p>
 		</center>
 	</div>
 </div>

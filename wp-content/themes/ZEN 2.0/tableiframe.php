@@ -9,9 +9,9 @@
 <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="/js/jquery.bracket.min.js"></script>
 <script type="text/javascript"  src="/js/moment-with-locales.min.js"></script>
-<link rel="stylesheet" href="http://www.bet-esport.com/css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="https://www.bet-esport.com/css/reset.css"> <!-- CSS reset -->
 <link rel="stylesheet" id="font-awesome-css" href="/css/font-awesome.min.css" type="text/css" media="all">
- <link rel="stylesheet" href="http://www.bet-esport.com/s.css" />
+ <link rel="stylesheet" href="https://www.bet-esport.com/s.css" />
 
 <style>
 html {
@@ -49,8 +49,8 @@ function OpenInNewTab(url) {
     } 
 
 
-    var xmlURL = "http://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
-    var xmlURL2 = "https://cors-anywhere.herokuapp.com/http://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
+    var xmlURL = "https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
+    var xmlURL2 = "https://cors-anywhere.herokuapp.com/https://feeds.betway.com/events?key=BD70EBBA&keywords=esports";
     var reflink = "?s=bw38578";
   
     $(document).ready(function () {

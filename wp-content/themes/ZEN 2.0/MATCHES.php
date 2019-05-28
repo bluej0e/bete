@@ -67,7 +67,7 @@
             $currentTor = current($tor);
 
             echo '<div class="torneogroup '. seoUrl($currentTor['gametype']) .'"  id="'. seoUrl($key) .'" value="'. $currentTor['gametype'] .'">';
-            echo '<a href="http://www.bet-esport.com/tournament/'.seoUrl($currentTor['gametype'])."-".seoUrl($key).'" ><img alt="'.$key.'"src="/i/p/'. seoUrl($currentTor['gametype']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">'. $key .'</h2></a>';
+            echo '<a href="https://www.bet-esport.com/tournament/'.seoUrl($currentTor['gametype'])."-".seoUrl($key).'" ><img alt="'.$key.'"src="/i/p/'. seoUrl($currentTor['gametype']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">'. $key .'</h2></a>';
             echo '<div class="matchgroups">';
             Ttor($tor);
             echo '</div>';

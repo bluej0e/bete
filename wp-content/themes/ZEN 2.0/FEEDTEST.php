@@ -8,7 +8,7 @@
 				the_content(); ?>
 
 				<div id="iframediv">
-					<iframe width="100%" height="300px" style="overflow:hidden;" src="http://www.bet-esport.com/table-iframe/"></iframe> 
+					<iframe width="100%" height="300px" style="overflow:hidden;" src="https://www.bet-esport.com/table-iframe/"></iframe> 
 				</div>	
 				
 				<!--div id="myInfoDiv" seamless="seamless" scrolling="no" style="width:100%; height: 100%; float: left; color: #FFF; background:#ed8719; line-height:100%; font-size:100%;" -->

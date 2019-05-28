@@ -3,10 +3,10 @@
     <a target="_blank" href="https://betway.com/esports30free/?s=bfp109554"><img src="/i/betway.jpg" alt="BetWay" /></a>
 </div>
 <div style="margin:5px;">
-    <a target="_blank" href="http://goo.gl/kILcl2"><img src="/i/pinnacle.jpg" alt="Pinnacle Sports" /></a>
+    <a target="_blank" href="https://goo.gl/kILcl2"><img src="/i/pinnacle.jpg" alt="Pinnacle Sports" /></a>
 </div>
 <div style="margin:5px;">
-    <a href="http://goo.gl/qh9TF9"><img src="/i/bet365.jpg" alt="Bet365" /></a>
+    <a href="https://goo.gl/qh9TF9"><img src="/i/bet365.jpg" alt="Bet365" /></a>
 </div>
  -->
 <style>
@@ -43,10 +43,10 @@ a.side_help:hover{
 
 <hr>
 <h3>New to eSports betting?</h3>
-<a class="side_help sh1" href="http://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
-<a class="side_help" href="http://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
-<a class="side_help" href="http://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
-<a class="side_help sh4" href="http://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
+<a class="side_help sh1" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
+<a class="side_help" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
+<a class="side_help" href="https://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
+<a class="side_help sh4" href="https://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
 <div style="clear:both"></div>
 <hr>
 

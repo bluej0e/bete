@@ -24,14 +24,14 @@ wp_reset_postdata();
 		
 
 							<div class="team">
-                                <img alt="<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>" src="http://www.bet-esport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>.png" />
+                                <img alt="<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>" src="https://www.bet-esport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>.png" />
                     </div>
 							<div class="teaminfo">
 								<h1><?php echo $teamname ?></h1>
 								<h3>
-                                    <img pad src="http://www.bet-esport.com/i/flags/48/<?php echo $country; ?>-flag.png"/> 
-                                    <a href="http://www.bet-esport.com/<?php echo $gametype; ?>/">
-                                        <img  src="http://www.bet-esport.com/i/<?php echo $gametype; ?>_300.png"/>
+                                    <img pad src="https://www.bet-esport.com/i/flags/48/<?php echo $country; ?>-flag.png"/> 
+                                    <a href="https://www.bet-esport.com/<?php echo $gametype; ?>/">
+                                        <img  src="https://www.bet-esport.com/i/<?php echo $gametype; ?>_300.png"/>
                                     </a>
                                 </h3>
 								
@@ -114,9 +114,9 @@ wp_reset_postdata();
 									}
 									?>
 									<span class="textbox">
-										<img width="16px"  src="http://www.bet-esport.com/i/<?php echo $gametype ?>-50.png"/> 
-										<img width="16px"  src="http://www.bet-esport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>-32x32.png"/> 
-										<img width="16px"  src="http://www.bet-esport.com/i/flags/32/<?php $values = get_post_custom_values("fullcountryname"); echo $values[0]; ?>-flag.png"/>
+										<img width="16px"  src="https://www.bet-esport.com/i/<?php echo $gametype ?>-50.png"/> 
+										<img width="16px"  src="https://www.bet-esport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>-32x32.png"/> 
+										<img width="16px"  src="https://www.bet-esport.com/i/flags/32/<?php $values = get_post_custom_values("fullcountryname"); echo $values[0]; ?>-flag.png"/>
 										<br>  <strong><?php the_title();?></strong></span></td>
 								</tr>
 							</table>

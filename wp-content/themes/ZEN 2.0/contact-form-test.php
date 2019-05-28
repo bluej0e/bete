@@ -1,6 +1,6 @@
 <?php /*temlpate name: contact form*/ ?>
 <link rel="stylesheet" href="build/css/intlTelInput.css">
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="build/js/intlTelInput.js"></script>
 
 <script>

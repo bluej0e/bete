@@ -2,25 +2,25 @@
 <div class="row" style="background-color: transparent;">	
 	<div class="nav-tainer">
 		<div class="nav-bar">
-			<a href="http://www.bet-esport.com/">
+			<a href="https://www.bet-esport.com/">
 				<div class="nav-bar-logo">
 					<div class="hide-for-small"><img  alt="bet-esport logo" src="/i/logo2.png" />
 						<br>
 					</div><img alt="bet-esport logo" style="vertical-align:middle; height:48px" src="/i/logo_mob.png" /></div>
 			</a>
-			<a href="http://www.bet-esport.com/matches/">
+			<a href="https://www.bet-esport.com/matches/">
 				<div class="nav-bar-btn">
 					<div class="h9 hide-for-small">MATCHES
 						<br>
 					</div><i class="nav-fa fa fa-gamepad " aria-hidden="true"></i></div>
 			</a>
-			<a href="http://www.bet-esport.com/tournaments/">
+			<a href="https://www.bet-esport.com/tournaments/">
 				<div class="nav-bar-btn">
 					<div class="h9 hide-for-small">TOURNAMENTS
 						<br>
 					</div><i class="nav-fa fa fa-trophy " aria-hidden="true"></i></div>
 			</a>
-			<a href="http://www.bet-esport.com/how-to-bet-on-esports/">
+			<a href="https://www.bet-esport.com/how-to-bet-on-esports/">
 				<div class="nav-bar-btn">
 					<div class="h9 hide-for-small">TIPS
 						<br>
