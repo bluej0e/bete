@@ -1,5 +1,5 @@
 <style>
-  .mpt1, .mpt2, .xbox, .zbox, .partido-boton, .ph11, .tbox, .threesquaretext {
+  .mpt1, .mpt2, .xbox, .zbox, .partido-boton, .ph11, .tbox, .threesquaretext, .partidoHolder, .icoName {
       display: flex;
   }
   .morepartidos {
@@ -20,7 +20,7 @@
     width: 100%;
   }
   .morepartidos p{
-    pading:0;
+    padding:0;
     margin:0;
   }
   .mpt1 {
@@ -56,7 +56,6 @@
       padding: .5em
   }
   .partidoHolder{
-    display: flex;
     flex-flow: wrap;
     justify-content: space-around;
   }
