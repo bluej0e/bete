@@ -87,14 +87,14 @@
                 <a href="<?php the_permalink(); ?>">
                   <div class="tbox">
                     <div class="icoName">
-                      <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                      <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>" />
                       <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
                     </div>
                     <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
                   </div>
                   <div class="zbox">
                     <div class="icoName">
-                      <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                      <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>" />
                       <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
                     </div>
                     <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
@@ -115,14 +115,14 @@
               <a href="<?php the_permalink(); ?>">
                 <div class="tbox">
                   <div class="icoName">
-                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>" />
                     <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
                   </div>
                   <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
                 </div>
                 <div class="xbox">
                   <div class="icoName">
-                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>" />
                     <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
                   </div>
                   <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
@@ -143,14 +143,14 @@
             <a href="<?php the_permalink(); ?>">
               <div class="tbox">
                 <div class="icoName">
-                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>" />
                   <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
                 </div>
                 <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
               </div>
               <div class="xbox">
                 <div class="icoName">
-                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>" />
                   <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
                 </div>
                 <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
