@@ -4,6 +4,7 @@
   <div class="twelve columns">
     <br>
     <h1 style="text-align:center;">Welcome to Bet eSport!</h1>
+    <h3>To get started clock on the games you want to check out!</h3>
     <hr>
     <?php
       ButtonGeneratorHome();
