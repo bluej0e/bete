@@ -29,7 +29,8 @@
       flex-direction: column;
   }
   .xbox img, .zbox img, .tbox img{
-      max-width: 30px;
+      width: 30px;
+      height: 30px;
   }
   /* .tbox {
       width: 10%;
