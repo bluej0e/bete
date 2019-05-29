@@ -111,18 +111,19 @@
           <?php $args3=array( 'post_type'=> 'match', 'post_status'=> 'publish', 'order'=> 'ASC', 'meta_value'=> $t1name, 'posts_per_page'=> 3, 'post__not_in'=> array($currentID), 'meta_query'=> array( 'relation'=> 'OR', array( 'key'=> 't1name', 'value'=> $t1name, ), array( 'key'=> 't2name', 'value'=> $t1name, ), ), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'orderby'=> 'meta_value', 'compare'=> '>=' ))); $tournamentz3=new WP_Query( $args3 ); if ( $tournamentz3->have_posts() ){while ( $tournamentz3->have_posts() ){$tournamentz3->the_post(); ?>
           <a href="<?php the_permalink(); ?>">
               <div class="morepartidos mpt2">
-                  <div class="tbox"> <img style="padding-bottom:5px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                      <br><img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                  <div class="tbox">
+                    <div class="icoName">
+                      <img style="padding-bottom:5px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                      <?php echo get_post_custom_values( 't1name')[0]; ?>
+                    </div>
+                    <?php echo get_post_custom_values( 't1odds')[0]; ?>
                   </div>
                   <div class="xbox">
-                      <?php echo get_post_custom_values( 't1name')[0]; ?>
-                      <br>
+                    <div class="icoName">
+                      <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
                       <?php echo get_post_custom_values( 't2name')[0]; ?>
-                  </div>
-                  <div class="zbox">
-                      <?php echo get_post_custom_values( 't1odds')[0]; ?>
-                      <br>
-                      <?php echo get_post_custom_values( 't2odds')[0]; ?>
+                    </div>
+                    <?php echo get_post_custom_values( 't2odds')[0]; ?>
                   </div>
               </div>
           </a>
