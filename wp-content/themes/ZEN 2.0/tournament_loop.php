@@ -3,8 +3,8 @@
       display: flex;
   }
   .morepartidos {
-      margin: .5em;
-      padding: .2em .2em 0;
+      /* margin: .5em; */
+      /* padding: .2em .2em 0; */
       /*background-color: #222;*/
       background-image: url(/i/vs2.png);
       background-size: cover;
@@ -35,9 +35,10 @@
       margin-top: 5px;
   } */
 
-  .xbox, .zbox {
+  .tbox, .zbox {
       font-size: 1.1em;
       line-height: 2.5em;
+      justify-content: space-between;
   }
   /* .xbox {
       width: 72%;
@@ -77,10 +78,10 @@
             <div class="morepartidos mpt1">
               <a href="<?php the_permalink(); ?>">
                 <div class="tbox">
-                  <img style="padding-bottom:5px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
                   <?php echo get_post_custom_values( 't1name')[0]; ?>
                   <?php echo get_post_custom_values( 't1odds')[0]; ?>
-                  <br>
+                  <!-- <br> -->
                 </div>
                 <!-- <div class="xbox">
                   < ?php echo get_post_custom_values( 't1name')[0]; ?>
