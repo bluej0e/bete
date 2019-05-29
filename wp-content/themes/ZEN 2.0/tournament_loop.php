@@ -3,6 +3,7 @@
       display: flex;
   }
   .morepartidos {
+      display: flex;
       /* margin: .5em; */
       /* padding: .2em .2em 0; */
       /*background-color: #222;*/
@@ -12,6 +13,7 @@
       background-position: center center;
       background-attachment: inherit;
       flex-direction: row;
+
   }
 
   .mpt1 {
@@ -78,7 +80,7 @@
             <div class="morepartidos mpt1">
               <a href="<?php the_permalink(); ?>">
                 <div class="tbox">
-                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
                   <?php echo get_post_custom_values( 't1name')[0]; ?>
                   <?php echo get_post_custom_values( 't1odds')[0]; ?>
                   <!-- <br> -->
@@ -89,7 +91,7 @@
                   < ?php echo get_post_custom_values( 't2name')[0]; ?>
                 </div> -->
                 <div class="zbox">
-                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
                   <?php echo get_post_custom_values( 't2name')[0]; ?>
                   <?php echo get_post_custom_values( 't2odds')[0]; ?>
                 </div>
