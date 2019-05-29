@@ -1,6 +1,6 @@
 <style>
   .mpt1, .mpt2, .xbox, .zbox, .partido-boton, .ph11, .tbox, .threesquaretext {
-      display: inline-block;
+      display: flex;
   }
   .morepartidos {
       margin: .5em;
@@ -10,48 +10,50 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      background-attachment: inherit
+      background-attachment: inherit;
+      flex-direction: row;
   }
 
   .mpt1 {
-      width: 31%;
-      margin: 1%
+      width: 30%;
+      /* margin: 1% */
   }
   .mpt2 {
-      width: 97%;
-      margin: 1.2%
+      width: 100%;
+      /* margin: 1.2% */
   }
   .xbox, .zbox, .tbox {
       overflow: hidden;
       vertical-align: middle;
+      flex-direction: column;
   }
   .xbox img, .zbox img, .tbox img{
       max-width: 30px;
   }
-  .tbox {
+  /* .tbox {
       width: 10%;
       margin-top: 5px;
-  }
+  } */
 
   .xbox, .zbox {
       font-size: 1.1em;
       line-height: 2.5em;
   }
-  .xbox {
+  /* .xbox {
       width: 72%;
       white-space: nowrap;
-  }
-  .zbox {
+  } */
+  /* .zbox {
       float: right;
       text-align: center;
       width: 15%;
-  }
+  } */
   .threesquare img {
       height: 50px;
       padding: .5em
   }
   .threesquaretext {
-      vertical-align: top;
+      /* vertical-align: top; */
       font-size: 1.5em;
       padding: .5em
   }
