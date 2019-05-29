@@ -17,6 +17,7 @@
   .morepartidos a{
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
   }
   .mpt1 {
       width: 30%;
@@ -44,7 +45,7 @@
   .tbox, .zbox {
       font-size: 1.1em;
       line-height: 2.5em;
-      justify-content: space-between;
+
   }
   /* .xbox {
       width: 72%;
