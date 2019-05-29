@@ -19,10 +19,15 @@
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    align-items: stretch;
   }
   .morepartidos p{
     padding:0;
     margin:0;
+  }
+  .morepartidos img{
+      width: 30px;
+      height: 30px;
   }
   .mpt1 {
     min-width: 30%;
@@ -39,10 +44,6 @@
     overflow: hidden;
     justify-content: space-between;
     flex-direction: row;
-  }
-  .zbox img, .tbox img{
-      width: 30px;
-      height: 30px;
   }
   .threesquare img {
       height: 50px;
