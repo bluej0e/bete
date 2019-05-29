@@ -18,7 +18,7 @@
   .morepartidos a{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     align-items: stretch;
   }
