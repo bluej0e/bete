@@ -31,22 +31,18 @@
       width: 100%;
       margin: 0.5%;
   }
-  .xbox, .zbox, .tbox {
-      overflow: hidden;
-      vertical-align: middle;
-      justify-content: space-between;
-      flex-direction: row;
-  }
-  .xbox img, .zbox img, .tbox img{
-      width: 30px;
-      height: 30px;
-  }
   .tbox, .zbox {
     display: flex;
     align-items: center;
     font-size: 1.1em;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-direction: row;
   }
-
+  .zbox img, .tbox img{
+      width: 30px;
+      height: 30px;
+  }
   .threesquare img {
       height: 50px;
       padding: .5em
@@ -64,7 +60,7 @@
     align-items: center;
   }
   .icoName p{
-    margin-left: 2px;
+    margin-left: 5px;
   }
   @media only screen and (max-width: 499px) {
     .mpt1 {
