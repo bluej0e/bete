@@ -47,8 +47,10 @@
   } */
 
   .tbox, .zbox {
-      font-size: 1.1em;
-      line-height: 2.5em;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    /* line-height: 2.5em; */
 
   }
   /* .xbox {
@@ -72,7 +74,7 @@
   .partidoHolder{
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   @media only screen and (max-width: 499px) {
     .mpt1 {
