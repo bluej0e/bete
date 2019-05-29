@@ -19,6 +19,10 @@
     flex-direction: row;
     width: 100%;
   }
+  .morepartidos p{
+    pading:0;
+    margin:0;
+  }
   .mpt1 {
       width: 30%;
       /* margin: 1% */
