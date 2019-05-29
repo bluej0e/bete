@@ -1,6 +1,10 @@
 <style>
-  .mpt1, .mpt2, .xbox, .zbox, .partido-boton, .ph11, .tbox, .threesquaretext, .partidoHolder, .icoName {
+  .mpt1, .mpt2, .xbox, .zbox, .partido-boton, .ph11, .tbox, .threesquaretext, .partidoHolder, .icoName, .threesquare {
       display: flex;
+  }
+  .threesquare img{
+    width: 50px;
+    height: 50px;
   }
   .morepartidos {
       display: flex;
