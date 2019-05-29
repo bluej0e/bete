@@ -74,18 +74,21 @@
           <?php $dday=mktime(); $args2=array( 'post_type'=> 'match', 'meta_key'=> 'tournament', 'meta_value'=> $tournament, 'post_status'=> 'publish', 'order'=> 'ASC', 'posts_per_page'=> 6, 'post__not_in'=> array($currentID), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'orderby'=> 'meta_value_num', 'compare'=> '>=' ))); $tournamentz2=new WP_Query( $args2 ); if ( $tournamentz2->have_posts() ){while ( $tournamentz2->have_posts() ){$tournamentz2->the_post(); ?>
             <div class="morepartidos mpt1">
               <a href="<?php the_permalink(); ?>">
-                <div class="tbox"> <img style="padding-bottom:5px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                    <br><img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                <div class="tbox">
+                  <img style="padding-bottom:5px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                  <?php echo get_post_custom_values( 't1name')[0]; ?>
+                  <?php echo get_post_custom_values( 't1odds')[0]; ?>
+                  <br>
                 </div>
-                <div class="xbox">
-                    <?php echo get_post_custom_values( 't1name')[0]; ?>
-                    <br>
-                    <?php echo get_post_custom_values( 't2name')[0]; ?>
-                </div>
+                <!-- <div class="xbox">
+                  < ?php echo get_post_custom_values( 't1name')[0]; ?>
+                  <br>
+                  < ?php echo get_post_custom_values( 't2name')[0]; ?>
+                </div> -->
                 <div class="zbox">
-                    <?php echo get_post_custom_values( 't1odds')[0]; ?>
-                    <br>
-                    <?php echo get_post_custom_values( 't2odds')[0]; ?>
+                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                  <?php echo get_post_custom_values( 't2name')[0]; ?>
+                  <?php echo get_post_custom_values( 't2odds')[0]; ?>
                 </div>
               </a>
             </div>
