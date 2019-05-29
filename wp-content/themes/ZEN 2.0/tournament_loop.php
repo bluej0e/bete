@@ -26,7 +26,8 @@
   .xbox, .zbox, .tbox {
       overflow: hidden;
       vertical-align: middle;
-      flex-direction: column;
+      justify-content: space-between;
+      flex-direction: row;
   }
   .xbox img, .zbox img, .tbox img{
       width: 30px;
