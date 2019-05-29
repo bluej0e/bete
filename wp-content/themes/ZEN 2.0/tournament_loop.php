@@ -24,12 +24,12 @@
     margin:0;
   }
   .mpt1 {
-      width: 30%;
-      /* margin: 1% */
+    min-width: 30%;
+    margin: 0.5%;
   }
   .mpt2 {
       width: 100%;
-      /* margin: 1.2% */
+      margin: 0.5%;
   }
   .xbox, .zbox, .tbox {
       overflow: hidden;
@@ -41,33 +41,17 @@
       width: 30px;
       height: 30px;
   }
-  /* .tbox {
-      width: 10%;
-      margin-top: 5px;
-  } */
-
   .tbox, .zbox {
     display: flex;
     align-items: center;
     font-size: 1.1em;
-    /* line-height: 2.5em; */
-
   }
-  /* .xbox {
-      width: 72%;
-      white-space: nowrap;
-  } */
-  /* .zbox {
-      float: right;
-      text-align: center;
-      width: 15%;
-  } */
+
   .threesquare img {
       height: 50px;
       padding: .5em
   }
   .threesquaretext {
-      /* vertical-align: top; */
       font-size: 1.5em;
       padding: .5em
   }
