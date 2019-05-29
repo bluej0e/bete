@@ -60,6 +60,9 @@
     flex-flow: wrap;
     justify-content: space-around;
   }
+  .icoName{
+    justify-content: flex-start;
+  }
   @media only screen and (max-width: 499px) {
     .mpt1 {
         width: 97%;
@@ -81,13 +84,17 @@
               <div class="morepartidos mpt1">
                 <a href="<?php the_permalink(); ?>">
                   <div class="tbox">
-                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                    <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
+                    <div class="icoName">
+                      <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                      <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
+                    </div>
                     <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
                   </div>
                   <div class="zbox">
-                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
-                    <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
+                    <div class="icoName">
+                      <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                      <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
+                    </div>
                     <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
                   </div>
                 </a>
