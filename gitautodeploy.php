@@ -1,7 +1,7 @@
 <?php
 const API_KEY = "OVsSgIv82cGGwCadg2bFYGUIK0pY2o";
 const API_URL = "https://api.cloudways.com/api/v1";
-const EMAIL = "betesport.com@gmail.com";
+const EMAIL = "1updigitalmedia@gmail.com";
 /* examples
 const BranchName = "master";
 const GitUrl = "git@bitbucket.org:user22/repo_name.git";
