@@ -13,7 +13,8 @@
       background-position: center center;
       background-attachment: inherit;
       flex-direction: row;
-        }
+      min-height: 80px;
+  }
   .morepartidos a{
     justify-content: space-between;
     flex-direction: row;
