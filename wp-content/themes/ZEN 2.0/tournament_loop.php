@@ -35,7 +35,7 @@
     margin: 0.5%;
   }
   .mpt2 {
-      width: 100%;
+      width: 95%;
       margin: 0.5%;
   }
   .tbox, .zbox {
@@ -111,24 +111,24 @@
               </div>
           </div>
           <?php $args3=array( 'post_type'=> 'match', 'post_status'=> 'publish', 'order'=> 'ASC', 'meta_value'=> $t1name, 'posts_per_page'=> 3, 'post__not_in'=> array($currentID), 'meta_query'=> array( 'relation'=> 'OR', array( 'key'=> 't1name', 'value'=> $t1name, ), array( 'key'=> 't2name', 'value'=> $t1name, ), ), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'orderby'=> 'meta_value', 'compare'=> '>=' ))); $tournamentz3=new WP_Query( $args3 ); if ( $tournamentz3->have_posts() ){while ( $tournamentz3->have_posts() ){$tournamentz3->the_post(); ?>
-          <a href="<?php the_permalink(); ?>">
-              <div class="morepartidos mpt2">
-                  <div class="tbox">
-                    <div class="icoName">
-                      <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                      <?php echo get_post_custom_values( 't1name')[0]; ?>
-                    </div>
-                    <?php echo get_post_custom_values( 't1odds')[0]; ?>
+            <div class="morepartidos mpt2">
+              <a href="<?php the_permalink(); ?>">
+                <div class="tbox">
+                  <div class="icoName">
+                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                    <?php echo get_post_custom_values( 't1name')[0]; ?>
                   </div>
-                  <div class="xbox">
-                    <div class="icoName">
-                      <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
-                      <?php echo get_post_custom_values( 't2name')[0]; ?>
-                    </div>
-                    <?php echo get_post_custom_values( 't2odds')[0]; ?>
+                  <?php echo get_post_custom_values( 't1odds')[0]; ?>
+                </div>
+                <div class="xbox">
+                  <div class="icoName">
+                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                    <?php echo get_post_custom_values( 't2name')[0]; ?>
                   </div>
-              </div>
-          </a>
+                  <?php echo get_post_custom_values( 't2odds')[0]; ?>
+                </div>
+              </a>
+            </div>
           <?php }}else{echo "<p>Right now there's no matches for ". $t1name . ".</p>";}wp_reset_query(); ?>
       </div>
       <div class="six columns">
@@ -139,24 +139,25 @@
               </div>
           </div>
           <?php $args4=array( 'post_type'=> 'match', 'post_status'=> 'publish', 'meta_value'=> $t2name, 'posts_per_page'=> 3, 'post__not_in'=> array($currentID), 'meta_query'=> array( 'relation'=> 'OR', array( 'key'=> 't1name', 'value'=> $t2name, ), array( 'key'=> 't2name', 'value'=> $t2name, ), ), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'compare'=> '>=' ))); $tournamentz4=new WP_Query( $args4 ); if ( $tournamentz4->have_posts() ){while ( $tournamentz4->have_posts() ){$tournamentz4->the_post(); ?>
-          <a href="<?php the_permalink(); ?>">
-            <div class="morepartidos mpt2">
-                <div class="tbox">
-                  <div class="icoName">
-                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                    <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
-                  </div>
-                  <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
+          <div class="morepartidos mpt2">
+            <a href="<?php the_permalink(); ?>">
+              <div class="tbox">
+                <div class="icoName">
+                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                  <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
                 </div>
-                <div class="xbox">
-                  <div class="icoName">
-                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
-                  <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
-                  </div>
-                  <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
+                <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
+              </div>
+              <div class="xbox">
+                <div class="icoName">
+                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values( 't2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
                 </div>
-            </div>
-          </a>
+                <p><?php echo get_post_custom_values( 't2odds')[0]; ?></p>
+              </div>
+            </a>
+          </div>
+
           <?php }}else{echo "<p>Right now there's no matches for ". $t2name . ".</p>";}wp_reset_query(); ?>
       </div>
   </div>
