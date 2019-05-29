@@ -1,10 +1,10 @@
-<?php 
-/*
-Template Name: Tournament
-Template Post Type: Tournament
-*/
-get_header('prueba1');  
-$currentgtype = get_post_custom_values('gametype')[0];
+<?php
+	/*
+	Template Name: Tournament
+	Template Post Type: Tournament
+	*/
+	get_header('prueba1');
+	$currentgtype = get_post_custom_values('gametype')[0];
 ?>
 
 <div class="row">
@@ -15,7 +15,7 @@ $currentgtype = get_post_custom_values('gametype')[0];
 			</div>
 		</div>
 		<!-- <h1>< ?php echo RemoveGameType(get_the_title()); ?></h1> -->
-		<?php the_post(); 
+		<?php the_post();
 		the_content(); ?>
 
 		<!-- <center><h4>Current and Upcoming Games</h4></center> -->
@@ -28,11 +28,11 @@ $currentgtype = get_post_custom_values('gametype')[0];
 				echo '<div class="torneogroups">';
 				MatchBoxes($tor);
 				echo '</div>';
-				echo '</div>';  
+				echo '</div>';
 			}
 		}
-		$d = mktime();		
-		$partidoz = new WP_Query( 
+		$d = mktime();
+		$partidoz = new WP_Query(
 			array(
 				'post_type'     => 'match',
 				// 'orderby'       => 'meta_value',
@@ -54,12 +54,12 @@ $currentgtype = get_post_custom_values('gametype')[0];
 						'value'		=> $currentgtype,
 						'compare'	=> '='
 					),
-				),  
+				),
 			)
-		);  
+		);
 		$torneo_array = array();
 
-		if ( $partidoz->have_posts() ) : while ( $partidoz->have_posts() ) : $partidoz->the_post(); 
+		if ( $partidoz->have_posts() ) : while ( $partidoz->have_posts() ) : $partidoz->the_post();
 			$torneo = get_post_meta(get_the_ID(), 'tournament', true);
 
 			$match_info = unserialize(unserialize(get_post_custom_values('match_info')[0]));
@@ -75,7 +75,7 @@ $currentgtype = get_post_custom_values('gametype')[0];
 
 			setlocale(LC_ALL,"en_EN");
 			$fechahumana = DateTime::createFromFormat("Y/m/d", explode(" ", get_post_custom_values('time')[0])[0]);
-			$fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp()); 
+			$fechaH= strftime("%d %b %Y",$fechahumana->getTimestamp());
 
 			$torneo_array[$torneo][] = array(
 				'title' =>  $title_array[0],
@@ -93,15 +93,15 @@ $currentgtype = get_post_custom_values('gametype')[0];
 				'linkouturl' => $match_info['quicklink']."/?s=bfp109554",
 			);
 
-		endwhile; endif; 
+		endwhile; endif;
 
 		TorSep($torneo_array);
 
-		wp_reset_query(); 
+		wp_reset_query();
 		?>
 		<div id="nonehere" style="display:none">No matches at the moment.</div>
 		<br>
-		<hr> 
+		<hr>
 	</div>
 </div>
 <?php get_footer('prueba1'); ?>
