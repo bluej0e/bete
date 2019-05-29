@@ -14,7 +14,10 @@
       background-attachment: inherit;
       flex-direction: row;
         }
-
+  .morepartidos a{
+    justify-content: space-between;
+    flex-direction: row;
+  }
   .mpt1 {
       width: 30%;
       /* margin: 1% */
