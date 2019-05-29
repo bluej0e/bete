@@ -90,13 +90,7 @@
                     <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
                     <p><?php echo get_post_custom_values( 't1name')[0]; ?></p>
                     <p><?php echo get_post_custom_values( 't1odds')[0]; ?></p>
-                    <!-- <br> -->
                   </div>
-                  <!-- <div class="xbox">
-                    < ?php echo get_post_custom_values( 't1name')[0]; ?>
-                    <br>
-                    < ?php echo get_post_custom_values( 't2name')[0]; ?>
-                  </div> -->
                   <div class="zbox">
                     <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
                     <p><?php echo get_post_custom_values( 't2name')[0]; ?></p>
