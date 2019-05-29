@@ -16,6 +16,7 @@
       min-height: 80px;
   }
   .morepartidos a{
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
