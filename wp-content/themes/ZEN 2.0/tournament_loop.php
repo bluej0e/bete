@@ -61,6 +61,10 @@
   }
   .icoName{
     justify-content: flex-start;
+    align-items: center;
+  }
+  .icoName p{
+    margin-left: 2px;
   }
   @media only screen and (max-width: 499px) {
     .mpt1 {
