@@ -13,8 +13,7 @@
       background-position: center center;
       background-attachment: inherit;
       flex-direction: row;
-
-  }
+        }
 
   .mpt1 {
       width: 30%;
@@ -60,6 +59,11 @@
       font-size: 1.5em;
       padding: .5em
   }
+  .partidoHolder{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
   @media only screen and (max-width: 499px) {
     .mpt1 {
         width: 97%;
@@ -76,28 +80,30 @@
                   <?php echo $tournament; ?>
               </div>
           </div>
-          <?php $dday=mktime(); $args2=array( 'post_type'=> 'match', 'meta_key'=> 'tournament', 'meta_value'=> $tournament, 'post_status'=> 'publish', 'order'=> 'ASC', 'posts_per_page'=> 6, 'post__not_in'=> array($currentID), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'orderby'=> 'meta_value_num', 'compare'=> '>=' ))); $tournamentz2=new WP_Query( $args2 ); if ( $tournamentz2->have_posts() ){while ( $tournamentz2->have_posts() ){$tournamentz2->the_post(); ?>
-            <div class="morepartidos mpt1">
-              <a href="<?php the_permalink(); ?>">
-                <div class="tbox">
-                  <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
-                  <?php echo get_post_custom_values( 't1name')[0]; ?>
-                  <?php echo get_post_custom_values( 't1odds')[0]; ?>
-                  <!-- <br> -->
-                </div>
-                <!-- <div class="xbox">
-                  < ?php echo get_post_custom_values( 't1name')[0]; ?>
-                  <br>
-                  < ?php echo get_post_custom_values( 't2name')[0]; ?>
-                </div> -->
-                <div class="zbox">
-                  <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
-                  <?php echo get_post_custom_values( 't2name')[0]; ?>
-                  <?php echo get_post_custom_values( 't2odds')[0]; ?>
-                </div>
-              </a>
-            </div>
-          <?php }}else{echo "<p>Right now there's no matches for ". $tournament . ".</p>"; }wp_reset_query(); ?>
+          <div class="partidoHolder">
+            <?php $dday=mktime(); $args2=array( 'post_type'=> 'match', 'meta_key'=> 'tournament', 'meta_value'=> $tournament, 'post_status'=> 'publish', 'order'=> 'ASC', 'posts_per_page'=> 6, 'post__not_in'=> array($currentID), 'meta_query'=> array( array( 'key'=> 'datecomp', 'value'=> $dday, 'orderby'=> 'meta_value_num', 'compare'=> '>=' ))); $tournamentz2=new WP_Query( $args2 ); if ( $tournamentz2->have_posts() ){while ( $tournamentz2->have_posts() ){$tournamentz2->the_post(); ?>
+              <div class="morepartidos mpt1">
+                <a href="<?php the_permalink(); ?>">
+                  <div class="tbox">
+                    <img onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t1name')[0]); ?>.png" alt="<?php echo $t1name; ?>" />
+                    <?php echo get_post_custom_values( 't1name')[0]; ?>
+                    <?php echo get_post_custom_values( 't1odds')[0]; ?>
+                    <!-- <br> -->
+                  </div>
+                  <!-- <div class="xbox">
+                    < ?php echo get_post_custom_values( 't1name')[0]; ?>
+                    <br>
+                    < ?php echo get_post_custom_values( 't2name')[0]; ?>
+                  </div> -->
+                  <div class="zbox">
+                    <img onerror="this.src='/i/s2.png'" src="/i/logos/50/<?php echo seoUrl(get_post_custom_values('t2name')[0]); ?>.png" alt="<?php echo $t2name; ?>" />
+                    <?php echo get_post_custom_values( 't2name')[0]; ?>
+                    <?php echo get_post_custom_values( 't2odds')[0]; ?>
+                  </div>
+                </a>
+              </div>
+            <?php }}else{echo "<p>Right now there's no matches for ". $tournament . ".</p>"; }wp_reset_query(); ?>
+          </div>
       </div>
       <div class="six columns">
           <div class="threesquare"> <img alt="bet on <?php echo $t1name; ?>" style="max-width: 100px;" onerror="this.src='/i/s1.png'" src="/i/logos/50/<?php echo seoUrl($t1name); ?>.png" />
