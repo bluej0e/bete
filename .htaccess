@@ -56,7 +56,7 @@ Options +FollowSymLinks
 LimitRequestBody 10240000
 
 # REDIRECT PARA RESOLVER ERRORES DEL WEBMASTER
-Redirect 301 /plugins/feedback.php http://www.bet-esport.com/
+Redirect 301 /plugins/feedback.php http://www.bete-sport.com/
 
 # FILTER BAD BOTS
 RewriteEngine On

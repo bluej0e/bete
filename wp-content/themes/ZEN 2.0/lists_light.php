@@ -5,15 +5,15 @@
       <div class="eight columns">
         <br>
         <div class="buttons">
-          <button class="showsinglegame btn btn-8 btn-8b" value="all" ><img alt="Show All" src="https://www.bet-esport.com/i/showall_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="league-of-legends" target="1"><img alt="League of Legends" src="https://www.bet-esport.com/i/lol_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="dota-2" target="2"><img alt="Dota 2" src="https://www.bet-esport.com/i/dota_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="cs-go" target="3"><img alt="CS GO" src="https://www.bet-esport.com/i/csgo_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="all" ><img alt="Show All" src="https://www.bete-sport.com/i/showall_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="league-of-legends" target="1"><img alt="League of Legends" src="https://www.bete-sport.com/i/lol_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="dota-2" target="2"><img alt="Dota 2" src="https://www.bete-sport.com/i/dota_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="cs-go" target="3"><img alt="CS GO" src="https://www.bete-sport.com/i/csgo_300.png"></button>
           <div style="margin:-20px"></div>
-          <button class="showsinglegame btn btn-8 btn-8b" value="hearthstone" target="4"><img alt="HS" src="https://www.bet-esport.com/i/hearthstone_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="heroes-of-the-storm" target="5"><img alt="HotS" src="https://www.bet-esport.com/i/hots_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="starcraft" target="6"><img alt="SC" src="https://www.bet-esport.com/i/sc_300.png"></button>
-          <button class="showsinglegame btn btn-8 btn-8b" value="others" target="7"><img alt="Other games" src="https://www.bet-esport.com/i/others_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="hearthstone" target="4"><img alt="HS" src="https://www.bete-sport.com/i/hearthstone_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="heroes-of-the-storm" target="5"><img alt="HotS" src="https://www.bete-sport.com/i/hots_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="starcraft" target="6"><img alt="SC" src="https://www.bete-sport.com/i/sc_300.png"></button>
+          <button class="showsinglegame btn btn-8 btn-8b" value="others" target="7"><img alt="Other games" src="https://www.bete-sport.com/i/others_300.png"></button>
         </div>                
         <br>
         <style>.torneogroup{display:hidden}</style>
@@ -58,7 +58,7 @@
         function TorSep($tor_array){
           foreach ($tor_array as $key=>$tor){
             echo '<div class="torneogroup '. seoUrl($tor[0]['data']) .'"  id="'. seoUrl($key) .'" value="'. $tor[0]['data'] .'">';
-            echo '<a href="www.bet-esport.com/tournament/'.seoUrl($key).'"><img alt="'.$key.'" src="/i/p/'. seoUrl($tor[0]['data']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">&nbsp;&nbsp;&nbsp;&nbsp;'. $key .'</h2></a>';
+            echo '<a href="www.bete-sport.com/tournament/'.seoUrl($key).'"><img alt="'.$key.'" src="/i/p/'. seoUrl($tor[0]['data']).'-50.png" style="height:40px; vertical-align:text-bottom; margin-left:20px; display:inline-block;"/><h2 style="display:inline-block; width:80%;">&nbsp;&nbsp;&nbsp;&nbsp;'. $key .'</h2></a>';
             echo '<div class="torneogroups">';
             Ttor($tor);
             echo '</div>';

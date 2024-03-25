@@ -43,10 +43,10 @@ a.side_help:hover{
 
 <hr>
 <h3>New to Esports betting?</h3>
-<a class="side_help sh1" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
-<a class="side_help" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
-<a class="side_help" href="https://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
-<a class="side_help sh4" href="https://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
+<a class="side_help sh1" href="https://www.bete-sport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
+<a class="side_help" href="https://www.bete-sport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
+<a class="side_help" href="https://www.bete-sport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
+<a class="side_help sh4" href="https://www.bete-sport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
 <div style="clear:both"></div>
 <hr>
 

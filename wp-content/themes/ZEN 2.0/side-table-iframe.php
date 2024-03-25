@@ -19,13 +19,13 @@
 		<!-- Modernizr -->
 		<script src="/js/main.js"></script>
 		<!-- Gem jQuery -->
-		<script type='text/javascript' src='https://www.bet-esport.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-		<script type='text/javascript' src='https://www.bet-esport.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-		<link rel='https://api.w.org/' href='https://www.bet-esport.com/wp-json/' />
-		<link rel="canonical" href="https://www.bet-esport.com/2190-2/" />
-		<link rel="alternate" type="application/json+oembed" href="https://www.bet-esport.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bet-esport.com%2F2190-2%2F" />
-		<link rel="alternate" type="text/xml+oembed" href="https://www.bet-esport.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bet-esport.com%2F2190-2%2F&#038;format=xml" />
-		<link rel="stylesheet" href="https://www.bet-esport.com/s.css" />
+		<script type='text/javascript' src='https://www.bete-sport.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+		<script type='text/javascript' src='https://www.bete-sport.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+		<link rel='https://api.w.org/' href='https://www.bete-sport.com/wp-json/' />
+		<link rel="canonical" href="https://www.bete-sport.com/2190-2/" />
+		<link rel="alternate" type="application/json+oembed" href="https://www.bete-sport.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bete-sport.com%2F2190-2%2F" />
+		<link rel="alternate" type="text/xml+oembed" href="https://www.bete-sport.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bete-sport.com%2F2190-2%2F&#038;format=xml" />
+		<link rel="stylesheet" href="https://www.bete-sport.com/s.css" />
 	
 		<style>
 html {
@@ -106,8 +106,8 @@ html {
 				$('.loading').hide();
 			});
 		}
-		var url_pinnacle = "https://www.bet-esport.com/xmlfeed/"
-			, url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
+		var url_pinnacle = "https://www.bete-sport.com/xmlfeed/"
+			, url_pinnacle2 = "https://www.bete-sport.com/xmlleague/";
 		$(document).ready(function () {
 			$(window).on('resize', function () {});
 			pinOdds();

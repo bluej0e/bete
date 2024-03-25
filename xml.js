@@ -45,7 +45,7 @@
                 }), $("#pinnacleDiv").append(currentTable)
             })
         }
-        var url_pinnacle = "http://www.bet-esport.com/xmlfeed/";
+        var url_pinnacle = "http://www.bete-sport.com/xmlfeed/";
         $(".odds.pinnacle").ready(function() {
             return pinOdds()
         }), $(".pages.home").ready(function() {

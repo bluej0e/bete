@@ -17,9 +17,9 @@
 	<div>
 		<center>
 			<p>&nbsp;
-				<br> Copyright © <script>document.write(new Date().getFullYear())</script> bet-esport.com</p>
-			<a href="https://www.bet-esport.com/map/">Sitemap</a> |
-			<a href="https://www.bet-esport.com/contact/">Contact</a></p>
+				<br> Copyright © <script>document.write(new Date().getFullYear())</script> bete-sport.com</p>
+			<a href="https://www.bete-sport.com/map/">Sitemap</a> |
+			<a href="https://www.bete-sport.com/contact/">Contact</a></p>
 		</center>
 	</div>
 </div>

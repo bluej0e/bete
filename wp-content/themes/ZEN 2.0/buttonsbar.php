@@ -46,14 +46,14 @@
 // function ButtonMaker($torneo_arrayB){
 // 	$buttonExclude = array('Dota 2', 'CS GO', 'League of Legends');
 
-// 	echo '<div class="buttons" style="text-align: center;"><button id="opendiv" class="gamebutton" ><img alt="Show All" src="https://www.bet-esport.com/i/showall_300.png"></button><button class="showsinglegame gamebutton" value="league-of-legends" target="1"><img alt="League of Legends" src="https://www.bet-esport.com/i/league-of-legends_300.png"></button><button class="showsinglegame gamebutton" value="dota-2" target="2"><img alt="Dota 2" src="https://www.bet-esport.com/i/dota-2_300.png"></button><button class="showsinglegame gamebutton" value="cs-go" target="3"><img alt="CS GO" src="https://www.bet-esport.com/i/cs-go_300.png"></button><div id="hiddenmenu" style="display:none"><button class="showsinglegame gamebutton" value="all" ><img alt="Show All" src="https://www.bet-esport.com/i/showall_300.png"></button>';
+// 	echo '<div class="buttons" style="text-align: center;"><button id="opendiv" class="gamebutton" ><img alt="Show All" src="https://www.bete-sport.com/i/showall_300.png"></button><button class="showsinglegame gamebutton" value="league-of-legends" target="1"><img alt="League of Legends" src="https://www.bete-sport.com/i/league-of-legends_300.png"></button><button class="showsinglegame gamebutton" value="dota-2" target="2"><img alt="Dota 2" src="https://www.bete-sport.com/i/dota-2_300.png"></button><button class="showsinglegame gamebutton" value="cs-go" target="3"><img alt="CS GO" src="https://www.bete-sport.com/i/cs-go_300.png"></button><div id="hiddenmenu" style="display:none"><button class="showsinglegame gamebutton" value="all" ><img alt="Show All" src="https://www.bete-sport.com/i/showall_300.png"></button>';
 
 // 	foreach ($torneo_arrayB as $key => $ppp) {
 // 		if (!in_array($key, $buttonExclude)){
-// 			echo '<button class="showsinglegame gamebutton" value="'.seoUrl($key).'" target="99"><img alt="'.$key.'" src="https://www.bet-esport.com/i/'.seoUrl($key).'_300.png"></button>';
+// 			echo '<button class="showsinglegame gamebutton" value="'.seoUrl($key).'" target="99"><img alt="'.$key.'" src="https://www.bete-sport.com/i/'.seoUrl($key).'_300.png"></button>';
 // 		}
 // 	}
-// 	echo '<button class="showsinglegame gamebutton" value="all" ><img alt="Others" src="https://www.bet-esport.com/i/others_300.png"></button>';
+// 	echo '<button class="showsinglegame gamebutton" value="all" ><img alt="Others" src="https://www.bete-sport.com/i/others_300.png"></button>';
 // 	echo '</div></div><br>';
 // }
 

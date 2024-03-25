@@ -31,7 +31,7 @@
                               if ($values != '')
                               {
                                  echo '<div class="qualifiers col-xs-6 col-md-4 col-lg-2" >';
-                                 echo '<img class="qualifiersimg" src="https://www.bet-esport.com/i/logos/'.$team.'-104x104.png"';
+                                 echo '<img class="qualifiersimg" src="https://www.bete-sport.com/i/logos/'.$team.'-104x104.png"';
                                  echo "<span class='qualifierstext'><strong>$xxvalues</strong></span>";
                                  echo "</div>"; 
                               } 

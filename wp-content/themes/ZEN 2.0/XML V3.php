@@ -190,8 +190,8 @@
 			$('.loading').hide();
 		});
 	}
-	var url_pinnacle = "https://www.bet-esport.com/xmlfeed/";
-	var url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
+	var url_pinnacle = "https://www.bete-sport.com/xmlfeed/";
+	var url_pinnacle2 = "https://www.bete-sport.com/xmlleague/";
 
 	//When document loads
 	$(document).ready(function(){

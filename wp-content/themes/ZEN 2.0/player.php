@@ -42,26 +42,26 @@
         <div width="100%">
             
               <div class="player">
-                  <img alt="<?php $values = get_post_custom_values("playercode"); echo $values[0]; ?>" src="https://www.bet-esport.com/i/<?php $values = get_post_custom_values("playercode"); echo $values[0]; ?>.jpg"/>
+                  <img alt="<?php $values = get_post_custom_values("playercode"); echo $values[0]; ?>" src="https://www.bete-sport.com/i/<?php $values = get_post_custom_values("playercode"); echo $values[0]; ?>.jpg"/>
                 
               </div>
               
               <div class="playerinfo">
                 <h1>
-                  <img width="32" height="32" src="https://www.bet-esport.com/i/<?php echo $gametype; ?>-50.png" href="https://www.bet-esport.com/<?php echo $gametype; ?>/"/>  
+                  <img width="32" height="32" src="https://www.bete-sport.com/i/<?php echo $gametype; ?>-50.png" href="https://www.bete-sport.com/<?php echo $gametype; ?>/"/>  
                     <?php echo get_the_title(); ?> 
                   </h1>
 
                   <h2>
-                    <a href="https://www.bet-esport.com/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>/">
-                      <img width="32" height="32" src="https://www.bet-esport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>-32x32.png"/>  
+                    <a href="https://www.bete-sport.com/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>/">
+                      <img width="32" height="32" src="https://www.bete-sport.com/i/<?php $values = get_post_custom_values("teamcode"); echo $values[0]; ?>-32x32.png"/>  
                         <?php echo $fullteamname ?></a>
                   </h2>    
 
                       <h3><?php echo $fullplayername ?></h3>
 
                       <h3>
-                        <img pad src="https://www.bet-esport.com/i/flags/24/<?php echo $fullcountryname; ?>-flag.png" alt="<?php echo $fullcountryname; ?>"/>   
+                        <img pad src="https://www.bete-sport.com/i/flags/24/<?php echo $fullcountryname; ?>-flag.png" alt="<?php echo $fullcountryname; ?>"/>   
                           <?php echo $fullcountryname ?></h3>
                         <?php
                         

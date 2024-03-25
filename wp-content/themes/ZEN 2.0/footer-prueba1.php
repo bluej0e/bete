@@ -34,10 +34,10 @@
 	<div class="twelve columns">
 		<h3>New to Esports betting?</h3>
 		<br>
-		<a class="tournaments" href="https://www.bet-esport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
-		<a class="tournaments" href="https://www.bet-esport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
-		<a class="tournaments" href="https://www.bet-esport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
-		<a class="tournaments" href="https://www.bet-esport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
+		<a class="tournaments" href="https://www.bete-sport.com/so-youre-looking-to-bet-money-on-esports/" title="WHAT ARE ESPORTS?">WHAT ARE ESPORTS?</a>
+		<a class="tournaments" href="https://www.bete-sport.com/how-to-bet-on-esports/" title="HOW TO BET ON ESPORTS">HOW TO BET ON ESPORTS</a>
+		<a class="tournaments" href="https://www.bete-sport.com/esports-betting-houses/" title="ESPORTS BETTING HOUSES">ESPORTS BETTING HOUSES</a>
+		<a class="tournaments" href="https://www.bete-sport.com/esports-betting-tips/" title="ESPORTS BETTING TIPS">ESPORTS BETTING TIPS</a>
 		<br>
 	</div>
 <div style="width:100%;clear:both;"></div>
@@ -59,7 +59,7 @@
 	</div>
 	<div>
 		<center>
-			<p>&nbsp;<br> Copyright © <script>document.write(new Date().getFullYear())</script> bet-esport.com</p> <a href="https://www.bet-esport.com/map/">Sitemap</a> | <a href="https://www.bet-esport.com/contact/">Contact</a> </p>
+			<p>&nbsp;<br> Copyright © <script>document.write(new Date().getFullYear())</script> bete-sport.com</p> <a href="https://www.bete-sport.com/map/">Sitemap</a> | <a href="https://www.bete-sport.com/contact/">Contact</a> </p>
 		</center>
 	</div>
 	<div style="height: 30px;"></div>

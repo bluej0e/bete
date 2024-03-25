@@ -180,8 +180,8 @@ $initialFeed = curl_exec($httpChannel); ?>
 
                 var url_betway = "ing.eu/odds/betwaylines/",
                     url_betathome = "ing.eu/odds/betathomelines/",
-                    url_pinnacle = "https://www.bet-esport.com/xmlfeed/",
-                    url_pinnacle2 = "https://www.bet-esport.com/xmlleague/";
+                    url_pinnacle = "https://www.bete-sport.com/xmlfeed/",
+                    url_pinnacle2 = "https://www.bete-sport.com/xmlleague/";
 
 
 	$(document).ready(function(){

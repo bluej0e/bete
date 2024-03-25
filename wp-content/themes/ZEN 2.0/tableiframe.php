@@ -9,9 +9,9 @@
 <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="/js/jquery.bracket.min.js"></script>
 <script type="text/javascript"  src="/js/moment-with-locales.min.js"></script>
-<link rel="stylesheet" href="https://www.bet-esport.com/css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="https://www.bete-sport.com/css/reset.css"> <!-- CSS reset -->
 <link rel="stylesheet" id="font-awesome-css" href="/css/font-awesome.min.css" type="text/css" media="all">
- <link rel="stylesheet" href="https://www.bet-esport.com/s.css" />
+ <link rel="stylesheet" href="https://www.bete-sport.com/s.css" />
 
 <style>
 html {
