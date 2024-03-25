@@ -18,11 +18,11 @@ define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'yrvdsheycs');
+define('DB_NAME', 'bcbgmpfbjh');
 /** MySQL database username */
-define('DB_USER', 'yrvdsheycs');
+define('DB_USER', 'bcbgmpfbjh');
 /** MySQL database password */
-define('DB_PASSWORD', 'Fg7hvq98Hr');
+define('DB_PASSWORD', 'G8QYjB7QeD');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 /** Database Charset to use in creating database tables. */
