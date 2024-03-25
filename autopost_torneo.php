@@ -246,7 +246,7 @@ function TournamentCreator($title, $name, $tax_input, $meta_input) {
 					$Mname = seoUrl("bet-".$t1name."-vs-".$t2name."-".$tournament."-".explode("/", explode(" ", $time)[0])[1]."-".explode("/", explode(" ", $time)[0])[2]."-".explode("/", explode(" ", $time)[0])[0]),
 					$Mtax_input = ['tag1' => $tournament, 'tag2' => "Match", 'tag3' => $gametype, 'tag4' => $t1name, 'tag5' => $t2name, 'tag6' => "Odds", "tag7" => "Bet", "tag8" => "eSports"],
 					$Mmeta_input = [
-						'seo_description' => "Bet on ".$t1name." vs ".$t2name." playing in the ".$tournament." live. Get the best odds only in Bet-eSport.com",
+						'seo_description' => "Bet on ".$t1name." vs ".$t2name." playing in the ".$tournament." live. Get the best odds only in Bet e-sport.com",
 						'seo_keywords' =>  $tournament.", Bet on esports, Match, Tournament, League, Championship, Season",
 						'seo_title' => "Bet on ".$t1name." vs ".$t2name." in the ".$tournament." – Get the best odds",
 						'match_info' => $match_winner_info,
@@ -282,7 +282,7 @@ function TournamentCreator($title, $name, $tax_input, $meta_input) {
 					'destacado' => "",
 					'islive' => "1",
 					'pagetype' => "tournament",
-					'seo_description' => "Watch the ".$gametype.", ".$tournament." live and bet on the games that are currently happening. Get the best odds only in Bet-eSport.com",
+					'seo_description' => "Watch the ".$gametype.", ".$tournament." live and bet on the games that are currently happening. Get the best odds only in Bet e-sport.com",
 					'seo_keywords' =>  $tournament.", Bet on esports, Matches, Tournament, League, Championship, Season",
 					'seo_title' => "Bet on the ".$tournament." – Get the best odds",
 					'gametype' => $gametype, 
